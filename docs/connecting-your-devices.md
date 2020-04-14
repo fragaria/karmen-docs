@@ -23,11 +23,12 @@ called [OctoPi](https://github.com/guysoft/OctoPi) that is designed for Raspberr
 microcomputers. Of course, in order for things to work, you will need to make sure your
 OctoPrint instance is **accessible over the network** and **write down its IP address**.
 
-!> OctoPrint is currently supported only when running Karmen on your own server.
-The reason behind this is *networking*. In order to avoid complicated settings
-on you router, the Karmen SaaS needs specially designed socket to be available
-on the controller device. We plan to describe how to setup this in near future
-so that you will be able to connect your existing devices, too.
+!> OctoPrint is currently supported only when running Karmen on your [own
+server](on-premise.md). The reason behind this is *networking*. In order to
+avoid complicated settings on you router, the Karmen SaaS needs a special [web
+socket proxy](https://github.com/fragaria/websocket-proxy) to be running on the
+controller device. We plan to describe how to setup this in near future so that
+you will be able to connect your existing devices, too.
 
 ### Adding your OctoPrint printer to Karmen
 
@@ -42,7 +43,7 @@ instance setup is finished. In case your OctoPrint is password-protected (which
 is always a good idea!), see the next section.
 
 
-### Instances with Access Cntrol
+### Instances with Access Control
 
 In case your instance have [Access
 Control](http://docs.octoprint.org/en/master/features/accesscontrol.html#sec-features-access-control)
