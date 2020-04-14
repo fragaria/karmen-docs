@@ -149,6 +149,20 @@ li input[type="checkbox"] {
     margin: 0 0.2em 0.25em 0;
     vertical-align: middle;
 }
+.app-name {
+    display: block;
+}
+.app-name:before {
+    content: '';
+    display: flex;
+    align-items: center;
+    background: url('_media/karmen-logo-rect.svg');
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 15px;
+}
 .app-nav {
     margin: 25px 60px 0 0;
     position: absolute;
