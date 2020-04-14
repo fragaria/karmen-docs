@@ -12,7 +12,7 @@ guide](quickstart.md).
 ## Suggestions appreciated {docsify-ignore}
 
 We welcome any suggestions on improving this docs site. Please do not hesitate
-to submit one using [GitHub issue](https://github.com/fragaria/karmen-docs/issues/new) manager.
+to submit one using [GitHub issue](https://github.com/fragaria/karmen-docs/issues/new) tracker.
 
 
 ## More resources {docsify-ignore}
