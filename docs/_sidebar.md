@@ -2,10 +2,9 @@
 
 * [Home](/)
 
-* Overview
+* Basics
 
   * [What is Karmen?](about-karmen.md)
-  * [How does it work](how-does-it-work.md)
   * [Connecting your devices](connecting-your-devices.md)
 
 * Karmen Pill
@@ -20,4 +19,6 @@
   * [Managing access & organizations](access.md)
   * [Managing gcodes](gcodes.md)
   * [Printing](printing.md)
+  * [API tokens](api-tokens.md)
   * [Installing on-premise](on-premise.md)
+  * [FAQs](faq.md)

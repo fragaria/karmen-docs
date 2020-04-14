@@ -4,3 +4,7 @@
 
 [GitHub](https://github.com/fragaria/karmen/)
 [Getting Started](#karmen)
+
+<!-- background color -->
+
+![color](#ffffff)
