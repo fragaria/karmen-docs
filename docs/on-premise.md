@@ -141,18 +141,6 @@ You should also keep your installation [up-to-date](on-premise.md?id=updating) a
 
 ### Configuring user access
 
-Like most software, Karmen has a built-in concept of *users*. Without a valid
-user session, you won't be able to work with Karmen.
-
-Users are grouped into *organizations*. In each organization, users can have one of the
-two roles in Karmen Hub:
-
-- *Administrators*
-- *Users*
-
-Administrators can manage printers and users. Common users can use all of the
-printers and access the shared gcode library.
-
 Upon installation, there is an administrator account ready with username **karmen** and
 password **karmen3D** for you. The application will prompt you to change the password upon
 the first login.
@@ -167,6 +155,9 @@ requires a working mailing service.
 Also, for some actions, such as another password change or adding users, you
 need to re-authenticate with your password from time to time. So don't be
 alarmed if the application prompts for your password again.
+
+For more information about users and organizations, see [Managing access &
+organizations docs](access.md).
 
 ## Updating
 
