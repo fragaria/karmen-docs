@@ -18,12 +18,12 @@ altogether.
 
 You can create new API token in your account settings (click on your account in the app menu).
 
-![API token list](_media/api-tokens.png)
+![API token list](_media/api-tokens.png ":size=600x131")
 
 Click on the **Add token** button, name your new API token and select
 organization for which it should be available.
 
-![New API token](_media/new-api-token.png)
+![New API token](_media/new-api-token.png ":size=600x335")
 
 
 ## Running a monitoring dashboard {docsify-ignore}

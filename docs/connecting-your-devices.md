@@ -35,7 +35,7 @@ you will be able to connect your existing devices, too.
 Once you have you OctoPrint box ready and available, you can add it on the Settings page. Navigate to the Settings
 using the menu toggle and then click on "Add a printer" button.
 
-![Settings page](_media/add-printer-settings-page.png)
+![Settings page](_media/add-printer-settings-page.png ":size=600x138")
 
 You will be asked to enter you OctoPrint instance address. Make sure you enter
 the IP address mentioned above. After submitting the form, your OctoPrint

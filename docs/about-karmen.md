@@ -35,7 +35,7 @@ a network-enabled controllers. Those then connect to Karmen, a cloud service
 which provides the management facilities and gives commands to the 3D printers
 via the controllers.
 
-![Karmen](_media/karmen-schema.png ':size=600px')
+![Karmen](_media/karmen-schema.png ':size=600')
 
 Controllers are usually connected to the printers using the USB interface.
 However, Karmen design does not enforce a specific controller to be used. Currently,
