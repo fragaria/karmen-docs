@@ -19,7 +19,11 @@ start up automatically. Allow few minutes for it to boot up.
 Once it boots, it will be available on [169.254.13.1](http://169.254.13.1) local
 IP. Open up your browser and you should be greeted with an introduction page:
 
+<div class="center">
+
 ![Introduction](_media/pill-getting-started-intro.png ":size=600")
+
+</div>
 
 ### Setting up the WiFi
 
@@ -28,17 +32,29 @@ connection details (*network name* and the *passphrase*), select an appropriate
 Pill hostname (like `mypill1`) and adjust your country and timezone information
 if you want. Confirm your input by clicking on the **Save** button.
 
+<div class="center">
+
 ![Wifi setup](_media/pill-getting-started-wifi.png ":size=600")
+
+</div>
 
 Pill will now persist your settings and will try to connect to your WiFi network.
 
+<div class="center">
+
 ![Wifi setup being persisted](_media/pill-getting-started-writing-changes.png ":size=400")
+
+</div>
 
 Once WiFi connection is estabilished, your Pill will display a confirmation
 screen along with a **token** that you will use to **register it with Karmen cloud**
 service. Write it down.
 
+<div class="center">
+
 ![Initial config finished](_media/pill-getting-started-success.png ":size=600")
+
+</div>
 
 ## Connecting to the printer
 
@@ -93,7 +109,11 @@ Pill box with Karmen cloud service. Navigate to
 settings page (open the app menu and click on **Settings**). Click on the **Add
 a printer** button and then following dialog will be displayed:
 
+<div class="center">
+
 ![Add a printer in Karmen cloud](_media/pill-getting-started-add-a-printer.png ":size=600x417")
+
+</div>
 
 Select a nice name for your new printer, enter the token you've been given
 previously at the end of [WiFi

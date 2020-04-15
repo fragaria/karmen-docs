@@ -798,6 +798,10 @@ body {
     position: relative;
     word-wrap: normal;
 }
+.markdown-section .center {
+    text-align: center;
+    margin: auto
+}
 .token.cdata,
 .token.comment,
 .token.doctype,
