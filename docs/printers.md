@@ -43,9 +43,16 @@ the list. You can view various useful information there:
 
 - Printer connection status
 - Printer live camera feed
-- Toggle to turn on/off the LED lights (on Karmen Pill)
 - List of print job history
 - Basic information about controller client
+- Thorough information about current printing job
+- Information about potential update for the Karmen Pill you might want to install
+
+You can also perform several actions with the printer controller:
+
+- Toggle to turn on/off the LED lighting (on compatible device)
+- [Start](printing.md?id=starting-new-prints) new prints
+- [Pause](printing.md?id=pausing-and-resuming-ongoing-prints) or [cancel](printing.md?id=cancelling-prints) ongoing prints
 
 <div class="center">
 
