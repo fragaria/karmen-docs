@@ -8,14 +8,70 @@ single user interface.
 
 ## Displaying printer list
 
+Your whole printer fleet is easily accessible on the **Printer list** page which
+also serves as the entry page of each [organization](access.md). There are two
+view types that you can switch between using icons above the listing (top-right
+corner).
+
+### List view
+
+Printers displayed in a table list with textual information only. This mode is
+useful when you need to keep the network bandwith low.
+
+<div class="center">
+
+![Printer list view](_media/printers-list-view.png ":size=600x276")
+
+</div>
+
+### Grid view
+
+Printers displayed in a visual grid along with live video feed from each device.
+This mode comes handy when you need to visually check what your printers are doing
+at the moment.
+
+<div class="center">
+
+![Printer grid view](_media/printers-grid-view.png ":size=600x441")
+
+</div>
+
 ## Displaying printer status
 
-## Editing printer details
+Each printer has its status page you can display by clicking on the printer in
+the list. You can view various useful information there:
+
+- Printer connection status
+- Printer live camera feed
+- Toggle to turn on/off the LED lights (on Karmen Pill)
+- List of print job history
+- Basic information about controller client
+
+<div class="center">
+
+![Printer status](_media/printers-detail.png ":size=600x441")
+
+</div>
+
+## Editing printer properties
+
+Once printer is registered with Karmen, you define its properties:
+
+* **Loaded filament type**: Karmen will verify it matches the information in the
+  print job that is about to start.
+* **Loaded filament color**
+* **Bed type**
+* **Extruder/tool diameter**
+* **Note**
+
+We intend to work with these fields intensively in near future to make the
+printer management even easier for you. You can edit it by clicking
+the **Printer settings** button on the printer detail page.
 
 ## Adding new printers
 
-New printers are added in the organization settings. Locate the Printer settings
-page (open the app menu and click on **Settings**) and click on the **Add a
+New printers are added in the organization settings. Locate the **Printer settings
+page** (open the app menu and click on **Settings**) and click on the **Add a
 printer** button. One of following dialogs will be then displayed depending on
 your Karmen setup:
 
@@ -46,9 +102,9 @@ controller device. We plan to describe how to setup this in near future on your
 custom OctoPrint boxes too, so that you will be able to connect your existing
 devices even in cloud mode.
 
-When dealing with IP addresses, it is vital that the **address is reachable by
+When dealing with IP addresses, it is essential that the **address is reachable by
 your Karmen deployment**. Easiest way to make sure is to run both Karmen and
-your controllers *on the same network*. If Karmen cannot reach the boxes, it
+your controllers *on the same network*. If Karmen cannot reach your boxes, it
 won't be able to control them.
 
 ### Adding a Karmen Pill
@@ -61,7 +117,8 @@ the API key field empty, it is not mandatory for Pill boxes. Confirm addition by
 clicking **Add printer** and you're good to go.
 
 !> Can't remember the token your Pill was initialized with? See the
-[Troubleshooting](pill-troubleshooting.md) section on how to recover it.
+[Troubleshooting](pill-troubleshooting.md?id=recovering-a-lost-pill-token)
+section on how to recover it.
 
 
 ### Adding an OctoPrint device
@@ -76,4 +133,8 @@ API key can be obtained using the Application Keys Plugin as mentioned in the
 [OctoPrint
 docs](http://docs.octoprint.org/en/master/bundledplugins/appkeys.html#sec-bundledplugins-appkeys).
 
-## Deleting printers
+## Removing printers
+
+You can remove a printer on the **Printer settings page** (open the app menu
+and click on **Settings**). Then, remove your printer using a context menu on
+the respective printer listing item.
