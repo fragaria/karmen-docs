@@ -111,7 +111,7 @@ a printer** button and then following dialog will be displayed:
 
 <div class="center">
 
-![Add a printer in Karmen cloud](_media/printers-add-a-printer.png ":size=600x417")
+![Add a printer in Karmen cloud](_media/printers-add-a-printer-cloud-mode-on.png ":size=600x417")
 
 </div>
 

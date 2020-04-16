@@ -114,6 +114,21 @@ your Karmen deployment**. Easiest way to make sure is to run both Karmen and
 your controllers *on the same network*. If Karmen cannot reach your boxes, it
 won't be able to control them.
 
+### Automatic printer discovery
+
+To simplify device discovery, Karmen can scan for the compatible devices if they
+are connected to the same network. The optional discovery mode is
+[scanning](https://linux.die.net/man/1/arp-scan) a configured network interface
+for all devices and tries to call the common HTTP(S) ports to discover a known
+3D printer service such as OctoPrint. If it finds one, it adds it automatically
+to Karmen. This feature is only available when running Karmen deployment with
+[cloud mode](on-premise.md?id=configuration) disabled.
+
+You can start the automatic discovery process on the **Organization settings**
+page under the **Printers** tab. You will be asked to select which network
+interface to use. When finished, the printers will be added automatically to
+your fleet.
+
 ### Adding a Karmen Pill
 
 Adding your Pill to Karmen is as easy as it gets. Simply fill up your desired

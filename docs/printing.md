@@ -44,12 +44,14 @@ it's been cancelled. A confirmation dialog will be displayed to verify your inte
 Karmen allows you to manually trigger some actions on the printer both during
 the print and when it's inactive. Those actions include:
 
-- Moving the printer head (X/Y/Z axes)
-- Controlling the extrusion: enforce extrusion or retraction of some amount of material
-- Adjusting current temperature of both the extruder and the heatbed
-- Toggling the printer head fan on/off
-- Toggling the printer motors on/off
 - Toggling the LED lighting of Karmen Pill on/off
+- *Moving the printer head (X/Y/Z axes)*
+- *Controlling the extrusion: enforce extrusion or retraction of some amount of material*
+- *Adjusting current temperature of both the extruder and the heatbed*
+- *Toggling the printer head fan on/off*
+- *Toggling the printer motors on/off*
 
 You can trigger those actions on the [printer status
 page](printers.md?id=displaying-printer-status) under **Controls** tab.
+
+?> Support for actions written in italics is coming soon.

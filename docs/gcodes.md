@@ -13,7 +13,7 @@ G-code repository.
 Are you used to sending your G-codes into your printer directly from your slicer
 of choice like [PrusaSlicer](https://www.prusa3d.com/prusaslicer/),
 [Slic3r](https://slic3r.org/) or [with appropriate Cura
-plugin](https://ultimaker.com/software/ultimaker-cura>)? You can use your slicer
+plugin](https://ultimaker.com/software/ultimaker-cura)? You can use your slicer
 with Karmen as well, as long as your slicer integrates with
 [OctoPrint](https://octoprint.org>).
 

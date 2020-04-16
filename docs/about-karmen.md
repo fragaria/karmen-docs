@@ -8,11 +8,11 @@ and effortlessly. Using it, you will be able to:
 * **Enqueue print jobs** without ever touching SD cards again
 * **Divide your printing workload** to multiple printers
 * **Display print history**
-* **Perform start-pause-stop** commands on your printers
+* **Perform start-pause-stop and various other** commands on your printers
 
 Each of those features is available anywhere you go. You can connect to Karmen
 using your web browser either on your computer or on your mobile device. Karmen,
-unlike Octoprint, is fully responsive.
+unlike OctoPrint, is fully responsive.
 
 While existing solutions such as [OctoPrint](https://octoprint.org>) excel in
 controlling a single printer, multi-printer setup is still an issue and Karmen

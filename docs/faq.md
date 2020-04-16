@@ -2,18 +2,14 @@
 
 ## How does the network scanning work?
 
-The optional discovery mode is [scanning](https://linux.die.net/man/1/arp-scan>)
-a configured network interface for all devices and tries to call the common HTTP(S) ports to discover
-a known 3D printer service such as OctoPrint. If it finds one, it adds it
-automatically to Karmen. This feature is not available in the cloud mode.
+Auto discovery uses the arp-scan. See more info on [printers](printers.md?id=automatic-printer-discovery).
 
 ## How can I add a password protected Octoprint?
 
 OctoPrint's protected instances can be communicated with by using an API token
-that you can add to each printer on its settings screen. See [Connecting
-OctoPrint
-section](connection-your-devices.md?id=connecting-octoprint-enabled-devices) for
-further information.
+that you can add to each printer on its settings screen. See [Adding an
+OctoPrint device](printers.md?id=adding-an-octoprint-device) entry for further
+information.
 
 ## Can I run more Karmen instances on a single machine?
 
