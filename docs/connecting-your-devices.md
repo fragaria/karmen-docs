@@ -22,13 +22,4 @@ simplified by using a Raspbian-derived image with a pre-configured installation
 called [OctoPi](https://github.com/guysoft/OctoPi) that is designed for Raspberry Pi
 microcomputers. Of course, in order for things to work, you will need to make sure your
 OctoPrint instance is **accessible over the network** and **write down its IP address**. To connect your OctoPrint
-device, see [Adding OctoPrint devices](printers.md?id=adding-octoprint-devices) section in the [Managing printers docs](printers.md).
-
-!> OctoPrint is currently supported only when running Karmen on your [own
-server](on-premise.md) without the [cloud mode](on-premise.md?id=configuration)
-enabled. The reason behind this is *networking*. In order to avoid complicated
-settings on you router, the Karmen SaaS needs a special [web socket
-proxy](https://github.com/fragaria/websocket-proxy) to be running on the
-controller device. We plan to describe how to setup this in near future so that
-you will be able to connect your existing devices, too.
-
+device, see [Adding OctoPrint devices](printers.md?id=adding-octoprint-devices) section in the [Managing printers docs](printers.md?id=adding-new-printers).
