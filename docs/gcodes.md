@@ -2,11 +2,11 @@
 
 Karmen has G-code managent built-in. It allows you to upload new G-codes either
 *directly via web browser* or *right from your slicer*. It also serves as the
-*G-code repository*: the gcode list is searchable and Karmen also reads gcode
+*G-code library*: the gcode list is searchable and Karmen also reads gcode
 metadata like filament type or estimated print time.
 
 G-codes are scoped to [organizations](access.md), each organization has its own
-G-code repository.
+G-code library.
 
 ## Uploading gcodes using your slicer
 
@@ -23,13 +23,12 @@ address>/api/octoprint-emulator`, you can send your G-codes directly to Karmen.
 You might need to experiment with omitting the `http://` part or adding a `/` to
 the end of the address. Every slicer expects a slightly different format.
 
-In Karmen, you can then easily choose the printer which should handle the job.
-
 Instead of the *App key* that you would copy over from OctoPrint, you should
 create Karmen [API token](api-tokens.md) that can be safely stored in the Slicer
 configuration. Remember that Karmen API tokens are always scoped to a certain
 organization and your G-code will be available only there.
 
+In Karmen, you can then easily choose the printer which should handle the job.
 Since Karmen has no knowledge of the printer's properties such as filament
 material or a heatbed size at the time of this writing, the G-codes cannot be
 sent to a printer right away and you always need to go to Karmen to start the

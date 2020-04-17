@@ -3,7 +3,7 @@
 ## Installation
 
 Karmen should run on any OS supporting [Docker](https://www.docker.com) running on ``amd64`` or ``arm/v7`` architecture.
-We recommend to use a standalone computer for it. Specifically, a [Raspberry Pi 4](https://www.raspberrypi.org) is a great fit.
+We recommend using a standalone computer for it. Specifically, a [Raspberry Pi 4](https://www.raspberrypi.org) is a great fit.
 Docker can be easily installed on Raspberry Pi by running a few commands adapted from this
 [official blogpost](https://blog.docker.com/2019/03/happy-pi-day-docker-raspberry-pi/).
 We recommend using a clean Raspbian image as a base for installing Karmen.
@@ -38,7 +38,7 @@ cd karmen
 
 The directory `karmen` now contains at least the following files:
 
-- `docker-compose.yml` - A blueprint for all necessary services
+- `docker-compose.yml` - A blueprint for all the necessary services
 - `run-karmen.sh` - A startup script you can use to launch Karmen
 - `stop-karmen.sh` - A script you can use to stop Karmen
 - `update.sh` - An update script that can bring your installation up to date
@@ -49,12 +49,13 @@ to date during updates. The datafiles are created on your filesystem, not inside
 the container, so no data will be lost during Karmen's downtime.
 
 Karmen needs to be [configured](on-premise.md?id=configuration) before first
-launch. It is done exclusively with environment variables. The only required one
-is `KARMEN_SECRET_KEY` which you should set to something secret and never share
-with anyone. It is used for session encryption and should be unique for each
-installation.
+launch. It is done exclusively with [environment
+variables](https://en.wikipedia.org/wiki/Environment_variable). The only
+required one is `KARMEN_SECRET_KEY` which you should set to something secret and
+never share with anyone. It is used for session encryption and should be unique
+for each installation.
 
-Another important environment variable is `KARMEN_CLOUD_MODE`. If it is set to
+Another important environment variable is the `KARMEN_CLOUD_MODE`. If it is set to
 `0`, Karmen will try to work with Karmen Pills, OctoPrints and printers
 available directly over the network. If it is set to `1`, the application
 presumes that it is running somewhere on the internet and the devices are
@@ -78,7 +79,7 @@ shorthand script like this:
 KARMEN_CLOUD_MODE=0 KARMEN_SECRET_KEY=[secret key] ./run-karmen.sh
 ```
 
-Once command finishes, a browser-accessible frontend app is then available on
+Once command finishes, a browser-accessible frontend app will be available on
 the standard HTTP port 80. Again, consult the
 [configuration](on-premise.md?id=configuration) section for more configruation
 options including the used ports.
@@ -107,10 +108,9 @@ KARMEN_CLOUD_MODE=0 KARMEN_SECRET_KEY=[secret key] /home/pi/karmen/run-karmen.sh
 ```
 
 This will also put all of the startup information into a logfile in case you
-need to debug a broken start of Karmen. Be aware that this method starts all of
-the containers under a `root` account, which might not be the best idea.
-
-A better option might be a
+need to debug when something doesn't work as expected. Be aware that this method
+starts all of the containers under the `root` account, which might not be the best
+idea. A better option might be a
 [systemd](https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/)
 service which can be configured with a file like this:
 
@@ -135,25 +135,28 @@ ExecStop=/usr/bin/karmen-stop
 WantedBy=multi-user.target
 ```
 
-The `/usr/bin/` scripts are just links to the aforementioned `run-karmen.sh` and `stop-karmen.sh` scripts.
+`/usr/bin/` scripts are just links to the aforementioned `run-karmen.sh` and `stop-karmen.sh` scripts.
 
-You should also keep your installation [up-to-date](on-premise.md?id=updating) at all times.
+You should also keep your installation up-to-date at all times. There is
+[dedicated docs section](on-premise.md?id=updating) on this topic.
 
 ### Configuring user access
 
-Upon installation, there is an administrator account ready with username **karmen** and
-password **karmen3D** for you. The application will prompt you to change the password upon
+Upon installation, there is an administrator account ready with username `karmen` and
+password `karmen3D` for you. The application will prompt you to change the password upon
 the first login.
 
 !> Make sure that you log in right after the installation is complete so nobody
 else can hijack the installation from you.
 
-There is also a Default organization ready for you. You can rename it at any
+There is also a *Default organization* ready for you. You can rename it at any
 time. As an administrator, you can invite more users to your organization. That
-requires a working mailing service.
+requires a working mailing service. See
+[configuration](on-premise.md?id=configuration) section to learn how to
+configure it.
 
 Also, for some actions, such as another password change or adding users, you
-need to re-authenticate with your password from time to time. So don't be
+need to re-authenticate with your password from time to time. Don't be
 alarmed if the application prompts for your password again.
 
 For more information about users and organizations, see [Managing access &
@@ -162,8 +165,8 @@ organizations docs](access.md).
 ## Updating
 
 Every software needs to be updated over time to get new functionality or just
-to fix some bugs. Because Karmen is distributed as a bunch of Docker images,
-updating is quite easy.
+to fix some existing issues. Because Karmen is distributed as a bunch of Docker images,
+updating is rather simple.
 
 ### Getting the latest release
 
@@ -178,8 +181,8 @@ We have prepared an update script that can perform all of the steps for you.
 **However, it doesn't hurt to always have a manual backup before running an
 automated update.**
 
-If you've followed the [installation](on-premise.md?id=installation) guide, you
-will have a `karmen` directory in Raspberry Pi's home directory of `/home/pi`.
+If you've followed the [installation guide](on-premise.md?id=installation), you
+should have the `karmen` directory in Raspberry Pi's home directory of `/home/pi`.
 There should also be the `update.sh` script. It does all the steps described
 below for you and after running it, you should be ready to start Karmen again
 from a new version either by restarting your device (if you have set up the
@@ -199,7 +202,7 @@ All of the following commands are run from the `/home/pi/karmen` directory unles
 
 1. Stop Karmen with `./stop-karmen.sh`.
 2. Do a backup of the whole `karmen` directory including the PotsgreSQL datafiles.
-3. Get the latest (or specific) `release.zip` from github and unpack its contents into the `karmen` directory.
+3. Get the latest (or specific) `release.zip` from GitHub and unpack its contents into the `karmen` directory.
 4. Run `docker-compose pull` to get the latest versions of docker containers.
 5. Start Karmen again with
 
@@ -210,16 +213,16 @@ All of the following commands are run from the `/home/pi/karmen` directory unles
 ## Exposing your installation to the Internet
 
 Karmen is successfully running in your environment, but to make the whole system
-really useful, there is still one thing missing: *the ability to manage your printers
-when you're outside your local network*.
-
-There are multiple ways of doing that, take the following list as an inspiration on
-how it can be done.
+really useful, there is still one thing missing: *the ability to manage your
+printers when you're outside of your local network*. There are multiple ways of
+doing that, take the following list as an inspiration on how it can be done.
 
 ### Using Karmen Pill and Karmen SaaS
 
-To most straightforward solution is to get our [Karmen Pill](pill-getting-started.md) and register with our cloud
-service. Follow the [docs guide](pill-getting-started.md) to get started.
+To most straightforward solution is to get our [Karmen
+Pill](pill-getting-started.md) and register it with our cloud service. Follow
+the [docs guide](pill-getting-started.md) to get started. You can [order your
+Pill online](https://karmen.tech) on our website.
 
 ### Deployment accessible from the internet
 
@@ -240,20 +243,17 @@ secured and encrypted
 
 If you have your service set up behind a router with a fixed public IP address,
 you can use the [port mapping (or port
-forwarding)](https://en.wikipedia.org/wiki/Port_forwarding) technique.
-
-Just pick a port number and set up a [route on your
+forwarding)](https://en.wikipedia.org/wiki/Port_forwarding) technique. Just pick
+a port number and set up a [route on your
 router](https://portforward.com/router.htm>) that maps an outgoing port to the
 internal device's address.
 
 **An example:** Your public IP is `1.2.3.4`, Karmen is running locally on
 `192.168.3.89` and you pick an external port `44444`. After setting things up
-properly, Karmen will be available on `1.2.3.4:44444`.
+properly, Karmen will be available on `1.2.3.4:44444`. All traffic including the
+webcam streams is now routed to the internet through this mapped port.
 
-All traffic including the webcam streams is now routed to the internet through
-this mapped port.
-
-!> This solution is not really safe out-the-box since the traffic is not encrypted. You should
+!> This solution is **not safe** out-the-box since the traffic is not encrypted. You should
 protect the outgoing service with a TLS certificate by all means.
 
 #### Virtual Private Network (VPN)
@@ -262,8 +262,8 @@ Some routers offer a simple way of creating a VPN, basically a tunnel that makes
 network accessible via a secured connection from anywhere in the world. This solution is better
 than simple port mapping, because it uses an encrypted communication channel by definition.
 
-If your router does not support a VPN, you can get away with other solutions, such as
-[PiVPN](http://www.pivpn.io/). A VPN also makes all of your printers available directly,
+If your router does not support VPN, you can get away with other solutions, such as
+[PiVPN](http://www.pivpn.io/). VPN also makes all of your printers available directly,
 so the webcam streams might be a little smoother.
 
 #### SSH tunneling

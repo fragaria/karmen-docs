@@ -1,20 +1,20 @@
 # API tokens
 
-Sometimes, you need to access the application automatically — for example to run
+Sometimes, you need to access the application automatically—for example to run
 a monitoring dashboard or to access the API programatically. For that, Karmen
 offers API tokens tied to a certain user account and organization. Everyone can
-create as many tokens as they want. The API tokens have the following
+create as many tokens as they want. The API tokens have following
 properties:
 
 - They never expire.
-- They are always in the *user* role, so you cannot use them for adding printers
+- They always have the *user* role, you cannot use them for adding printers
   for example.
-- They are bound to a single organization.
+- They are bound to a single specific organization.
 - They can be revoked from the application.
 
 !> The tokens are signed by the application and if you change the
-``KARMEN_SECRET_KEY`` value in your configuration, they will stop working
-altogether.
+``KARMEN_SECRET_KEY`` value in your configuration, they will stop working. Be
+careful not to break existing integration when changing the secret key.
 
 You can create new API token in your account settings (click on your account in the app menu).
 
@@ -41,9 +41,3 @@ directly with the token like this:
 ```bash
 http://<karmen-address>/?token=<my-api-token>
 ```
-
-
-If you need to automate some administrative tasks, you should be successful if
-you copy your active session token (after you are prompted for password) from a
-browser's session cookies. Such token will expire in a few minutes, though, so
-you have to be quick.

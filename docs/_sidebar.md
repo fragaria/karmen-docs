@@ -7,11 +7,6 @@
   * [What is Karmen?](about-karmen.md)
   * [Connecting your devices](connecting-your-devices.md)
 
-* Karmen Pill
-
-  * [Getting started](pill-getting-started.md)
-  * [Troubleshooting](pill-troubleshooting.md)
-
 * Karmen
 
   * [Quick start](quickstart.md)
@@ -22,3 +17,9 @@
   * [API tokens](api-tokens.md)
   * [Installing on-premise](on-premise.md)
   * [FAQs](faq.md)
+
+* Karmen Pill
+
+  * [Getting started](pill-getting-started.md)
+  * [Troubleshooting](pill-troubleshooting.md)
+

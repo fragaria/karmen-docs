@@ -7,10 +7,10 @@ start with your first print, make sure you've [uploaded the G-code](gcodes.md) f
 you would like to work with.
 
 Then, using the app menu, navigate to G-codes listing to locate your G-code
-file. You can use search bar along with sorting switch to avoid browsing through
-a long list in case you've been using Karmen for some time already. Once you've
-located the record you would like to start printing, enqueue the printing job
-using the context menu right of the G-code name.
+file. You can use the search bar along with the sorting switch to avoid browsing
+through a long list in case you've been using Karmen for some time already. Once
+you locate the record you would like to start printing, enqueue the printing
+job using the context menu right of the G-code name.
 
 Assuming you have some printers connected, a dialog will be displayed asking you
 to select the printer you would like to use. The job will be started once you
@@ -26,11 +26,10 @@ about current print (i.e. getting rid of a plastic blob that formed on the
 heatbed) or merely to pause the job to avoid running out of the filament (in
 case of older printers without a filament sensor). In such situation, you can
 tell Karmen to pause the print for the printer in question on it's [status
-page](printers.md?id=displaying-printer-status). Look for the **Pause print** button under
-the **Controls** tab and hit it.
-
-Once the problem is resolved, you can simply *resume the print* from the same
-printer status page you've previously paused the print on.
+page](printers.md?id=displaying-printer-status). Look for the **Pause print**
+button under the **Controls** tab and hit it. Once the problem is resolved, you
+can simply *resume the print* from the same printer status page you've
+previously paused the print on.
 
 ## Cancelling prints
 
@@ -54,4 +53,4 @@ the print and when it's inactive. Those actions include:
 You can trigger those actions on the [printer status
 page](printers.md?id=displaying-printer-status) under **Controls** tab.
 
-?> Support for actions written in italics is coming soon.
+?> **Note:** Support for actions written in *italics* is coming soon.

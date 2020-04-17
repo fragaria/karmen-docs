@@ -2,7 +2,8 @@
 
 ## How does the network scanning work?
 
-Auto discovery uses the arp-scan. See more info on [printers](printers.md?id=automatic-printer-discovery).
+Auto discovery uses the arp-scan. See more info in the
+[printers](printers.md?id=automatic-printer-discovery) section.
 
 ## How can I add a password protected Octoprint?
 
@@ -17,7 +18,7 @@ Yes, you can. The `docker-compose.yml` file can be parametrized by a few
 environment variables and you can reconfigure all of the things needed to
 create multiple instances of Karmen Hub next to each other.
 
-You need to configure an isolated disk space for gcodes and for the database and
+You need to configure an isolated disk space for G-codes and for the database and
 you need to pick free ports for all the services.
 
 This setup is not ideal though, as all of the instances are run by the same system users

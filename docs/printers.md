@@ -1,7 +1,7 @@
 # Managing printers
 
-Each Karmen [organization](access.md?id=managing-organizations) has its own
-fleet of 3d printers assigned. Individual 3d printers can be controller using any
+Each Karmen [organization](access.md?id=managing-organizations) can have its own
+fleet of 3D printers assigned. Individual 3d printers can be controller using any
 supported [printer connection method](connecting-your-devices.md). Karmen serves
 as a central printer management hub integrating all the connected devices into
 single user interface.
@@ -13,9 +13,12 @@ also serves as the entry page of each [organization](access.md). There are two
 view types that you can switch between using icons above the listing (top-right
 corner).
 
+?> **Tip**: you can access the printer list quickly from everywhere by clicking the
+Karmen logo at the top-left of the screen.
+
 ### List view
 
-Printers displayed in a table list with textual information only. This mode is
+Printers are displayed in a table list with textual information only. This mode is
 useful when you need to keep the network bandwith low.
 
 <div class="center">
@@ -26,7 +29,7 @@ useful when you need to keep the network bandwith low.
 
 ### Grid view
 
-Printers displayed in a visual grid along with live video feed from each device.
+Printers are displayed in a visual grid along with live video feed from each device.
 This mode comes handy when you need to visually check what your printers are doing
 at the moment.
 
@@ -38,8 +41,8 @@ at the moment.
 
 ## Displaying printer status
 
-Each printer has its status page you can display by clicking on the printer in
-the list. You can view various useful information there:
+Each printer has its status page that can be accessed by clicking on the printer in
+the list. You can see various useful information there:
 
 - Printer connection status
 - Printer live camera feed
@@ -50,7 +53,7 @@ the list. You can view various useful information there:
 
 You can also perform several actions with the printer controller:
 
-- Toggle to turn on/off the LED lighting (on compatible device)
+- Toggle to turn on/off the LED lighting (on compatible devices)
 - [Start](printing.md?id=starting-new-prints) new prints
 - [Pause](printing.md?id=pausing-and-resuming-ongoing-prints) or [cancel](printing.md?id=cancelling-prints) ongoing prints
 
@@ -62,7 +65,7 @@ You can also perform several actions with the printer controller:
 
 ## Editing printer properties
 
-Once printer is registered with Karmen, you define its properties:
+Once a printer is registered with Karmen, you may define its properties:
 
 * **Loaded filament type**: Karmen will verify it matches the information in the
   print job that is about to start.
@@ -116,10 +119,10 @@ won't be able to control them.
 
 ### Automatic printer discovery
 
-To simplify device discovery, Karmen can scan for the compatible devices if they
-are connected to the same network. The optional discovery mode is
-[scanning](https://linux.die.net/man/1/arp-scan) a configured network interface
-for all devices and tries to call the common HTTP(S) ports to discover a known
+To simplify adding multiple devices, Karmen can scan for the compatible ones if they
+are connected to the same network. The discovery mode will
+[scan](https://linux.die.net/man/1/arp-scan) a configured network interface
+for all devices and tries to call the common HTTP(S) ports to discover a compatible
 3D printer service such as OctoPrint. If it finds one, it adds it automatically
 to Karmen. This feature is only available when running Karmen deployment with
 [cloud mode](on-premise.md?id=configuration) disabled.
@@ -157,6 +160,6 @@ docs](http://docs.octoprint.org/en/master/bundledplugins/appkeys.html#sec-bundle
 
 ## Removing printers
 
-You can remove a printer on the **Printer settings page** (open the app menu
-and click on **Settings**). Then, remove your printer using a context menu on
-the respective printer listing item.
+You can remove a printer on the **Printer settings page** (open the app menu and
+click on **Settings**). To remove it, use the context menu on the respective
+printer listing item.

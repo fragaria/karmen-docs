@@ -2,12 +2,16 @@
 
 This tutorial will guide you through the first launch of your new Karmen Pill
 box. We will cover whole setup from the [initial
-config](pill-getting-started.md?id=initial-configuration) to the 3D printer all
-the way down to [linking Pill with
-Karmen](pill-getting-started.md?id=linking-with-karmen).
-
-Once finished, you should have fully working Karmen bundle and be able to manage your
+config](pill-getting-started.md?id=initial-configuration) all the way down to
+[linking Pill with Karmen](pill-getting-started.md?id=linking-with-karmen). Once
+finished, you should have fully working Karmen bundle and be able to manage your
 printer remotely.
+
+<div class="center">
+
+![Karmen](_media/pill-transparent.png ':size=300x200')
+
+</div>
 
 ## Initial configuration
 
@@ -79,7 +83,7 @@ best location possible since it allows for a nice view: distance from Pill camer
 to extruder is quite similar most of the time.
 
 !> We kindly ask our community members to **share their customized Pill holder models with us**. We
-will gladly mention them right here on this docs site.
+will gladly mention them right here at this docs site.
 
 ### Connecting
 
@@ -122,3 +126,7 @@ field and hit **Add printer** to confirm it (API key field is not required with
 Karmen Pill). Assuming that everything went smoothly, you should now see your
 new Karmen Pill box under Printers list (*Printers* menu item). **Happy
 printing!**
+
+If you didn't have a chance to read through Karmen docs, it is now a good time
+to do that to get yourself familiar with Karmen features. The [quickstart
+guide](quickstart.md) is a good starting point.

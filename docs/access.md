@@ -7,14 +7,14 @@ user session, you won't be able to work with Karmen. Users are grouped into
 
 ## Administrators
 
-Administrator is a super user that can manage printers and their settings and
+Administrator is a superuser that can manage printers and their settings and
 also manage other users in the organization.
 
 ## Users
 
-Common users can see a use all the printers organization administrator has
-previously added. They can also access the shared gcodes library, upload new
-gcodes and trigger print jobs on the printers.
+Common users can see and use all the printers organization administrator has
+previously added. They can also access the shared G-codes library, upload new
+G-codes and trigger print jobs on the printers.
 
 ## Managing users
 
@@ -43,8 +43,9 @@ After confirming, an invitation email will be sent to his/hers mailbox with an
 activation link that first needs to be clicked to verify the email adress really
 exists. Until then, the user will be listed as **not activated** in the user list.
 
-If invitation didn't arrive, you can try re-sending it using the context menu on the user
-list page.
+If invitation didn't arrive, you can try re-sending it using the context menu on
+the user list page. Also, *check the spam folder*: in some rare cases, the invite
+might not make it through the SPAM filters.
 
 <div class="center">
 
@@ -81,21 +82,17 @@ have to [invite the user again](access.md?id=adding-new-users).
 
 ## Managing organizations
 
-Organizations group two things in fact:
-
-- users
-- printers
-
-Thus, they allow you to *logically group your printer fleet* along with
-operators to keep it busy. You can create arbitrary number of organizations
-without any limitation.
+Organizations group two things in fact: *users* and *printers*. Thus, they allow
+you to *logically group your printer fleet* along with operators to keep it
+busy. You can create arbitrary number of organizations without any limitation.
 
 !> Default organization is automatically created for you once you sign up.
 
 ### Switching organizations
 
 You can easily switch organization you work with using the organization switcher
-at the top left of the app screen:
+at the top left of the app screen. This is available to both common users and
+administrators.
 
 <div class="center">
 
@@ -103,20 +100,18 @@ at the top left of the app screen:
 
 </div>
 
-This is available to both common users and administrators.
-
 ### Creating new organizations
 
 New organizations can be added on the [organizations list
 page](https://cloud.karmen.tech/organizations) with the **Create new
 organization** button. Select an appropriate name like `Superheroes` and confirm
-the action with **Add organization** button.
+the action with the **Add organization** button.
 
 ### Changing organization name
 
 You can change name of any organization where you've been given the
 administrator role. To change the name, navigate to the organization list and
-click **Organization settings** link in the context menu (three dots icon) for the
+click on the **Organization settings** link in the context menu (three dots icon) for the
 organization you want to change.
 
 <div class="center">
