@@ -19,6 +19,17 @@ to submit one using [GitHub issue](https://github.com/fragaria/karmen-docs/issue
 
 See the [code on GitHub](https://github.com/fragaria/karmen).
 
+## Contributing {docsify-ignore}
+
+All contributions are highly appreciated! Please have a look at [contribution
+guidelines](https://github.com/fragaria/karmen/blob/master/CONTRIBUTING.md)
+first.
+
+## Reporting bugs & issues {docsify-ignore}
+
+Yeah, no software is without mistakes. If you think you've found one, please report it
+using the [GitHub issue tracker](https://github.com/fragaria/karmen/issues/new).
+
 ## Getting help {docsify-ignore}
 
 You can use any of following channels to ask for assistance should you need it:
@@ -26,3 +37,4 @@ You can use any of following channels to ask for assistance should you need it:
 - Ask a question using [Gitter](https://gitter.im/fragaria/karmen)
 - Ping us on [Facebook](https://www.facebook.com/karmen3D/)
 - Ask anything on our [Twitter](https://twitter.com/karmen3d)
+- Drop us an email at [support@karmen.tech](mailto:support@karmen.tech)

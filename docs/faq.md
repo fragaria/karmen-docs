@@ -1,5 +1,12 @@
 # FAQs
 
+## Which devices are supported?
+
+Karmen is compatible with all printers OctoPrint is compatible with. That means
+it is compatible with **most of available consumer 3D printers**. Should you
+have any trouble making it work with your device, just ping us using any channel
+mentioned [here](/?id=getting-help).
+
 ## How does the network scanning work?
 
 Auto discovery uses the arp-scan. See more info in the
