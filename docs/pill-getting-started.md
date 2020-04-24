@@ -13,15 +13,26 @@ printer remotely.
 
 </div>
 
+## Package contents
+
+In your Pill package, you will find following items:
+
+- **Karmen Pill** controller (obviously)
+- **Power adapter** for the region you've selected during order
+- An **USB - microUSB** cable for connecting your Pill to your computer during [initial configuration](pill-getting-started.md?id=initial-configuration)
+- An **USB type B - microUSB + USB** cable for both connecting your Pill to your printer and powering it at the same time
+- An **USB extension cord** when your power socket is further away
+
 ## Initial configuration
 
 After you've unpacked your Pill, it's time to do the initial configuration.
 Using the **provided USB cable** (microUSB - USB one), connect your Pill box to
-your computer. Plug in the included power adapter to the socket and Pill will
-start up automatically. Allow few minutes for it to boot up.
-
-Once it boots, it will be available on [169.254.13.1](http://169.254.13.1) local
-IP. Open up your browser and you should be greeted with an introduction page:
+your computer. This cable also serves as the power source so you won't need the
+power adapter just yet. Allow few minutes for Pill to boot up. After couple
+seconds, Pill LED light will signalise it's starting up with a blue light. When
+the LED turns off, your Pill has booted succesfully and shall be available at
+[169.254.13.1](http://169.254.13.1) local IP. Open up your browser and you
+should be greeted with an introduction page:
 
 <div class="center">
 
@@ -35,6 +46,8 @@ Your Pill will ask you to set up the WiFi connection first. Enter your network
 connection details (*network name* and the *passphrase*), select an appropriate
 Pill hostname (like `mypill1`) and adjust your country and timezone information
 if you want. Confirm your input by clicking on the **Save** button.
+
+!> Pill currently **only supports 2.4GHz WiFi**.
 
 <div class="center">
 
@@ -52,7 +65,7 @@ Pill will now persist your settings and will try to connect to your WiFi network
 
 Once WiFi connection is estabilished, your Pill will display a confirmation
 screen along with a **token** that you will use to **register it with Karmen cloud**
-service. Write it down.
+service. **Write it down** or **keep the browser tab open** for later use.
 
 <div class="center">
 
@@ -62,8 +75,7 @@ service. Write it down.
 
 ## Connecting to the printer
 
-When the initial configuration is dealt with, unplug your Pill from the power
-socket and remove the USB cable from your computer.
+When the initial configuration is dealt with, simply unplug your Pill from your computer.
 
 ### Mounting
 
@@ -87,10 +99,15 @@ will gladly mention them right here at this docs site.
 
 ### Connecting
 
-Karmen Pill connects to your printer **using the provided USB cable** (the
-second one, USB type B). Just stick it in and you should be good to go. Finally,
-plug in the included power adapter to the socket again and wait until it boots
-up.
+Karmen Pill connects to your printer **using the second provided USB cable**.
+This cable might look a bit different from what you're used to. It has *both*
+microUSB and regular USB connectors as well as USB type B one. Regular USB goes to
+the included power adapter, microUSB goes to the Pill itself and the remaining
+USB type B goes to your printer USB port. In case you need longer cable for
+connecting the power adapter, you can use the USB extension cord which is also
+included in the Pill package. When you have everything hooked up, plug in the
+included power adapter to the socket and wait until Pill boots up again. Be
+patient, first boot might take as long as 5 minutes.
 
 After a while, your Pill should be accessible with a web browser using the
 hostname you've chosen previously with a **.local** suffix, e.g.
