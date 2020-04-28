@@ -1,67 +1,17 @@
-@font-face {
-    font-family: "Andulka Text Pro";
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.woff") format("woff");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.eot");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.eot#iefix") format("embedded-opentype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.woff") format("woff"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.ttf") format("truetype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro.svg") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: "Andulka Text Pro";
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.woff") format("woff");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.eot");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.eot#iefix") format("embedded-opentype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.woff") format("woff"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.ttf") format("truetype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Italic.svg") format("svg");
-    font-weight: normal;
-    font-style: italic;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: "Andulka Text Pro";
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.woff") format("woff");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.eot");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.eot#iefix") format("embedded-opentype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.woff") format("woff"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.ttf") format("truetype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-Bold.svg") format("svg");
-    font-weight: bold;
-    font-style: normal;
-    font-display: fallback;
-}
-
-@font-face {
-    font-family: "Andulka Text Pro";
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.woff") format("woff");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.eot");
-    src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.eot#iefix") format("embedded-opentype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.woff") format("woff"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.ttf") format("truetype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/AndulkaTextPro-BoldItalic.svg") format("svg");
-    font-weight: bold;
-    font-style: italic;
-    font-display: fallback;
-}
 
 @font-face {
     font-family: "Trivia Grotesk N2";
     src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.woff") format("woff");
     src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.eot");
     src: url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.eot#iefix") format("embedded-opentype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.woff") format("woff"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.ttf") format("truetype"),
-        url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.svg") format("svg");
+    url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.woff") format("woff"),
+    url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.ttf") format("truetype"),
+    url("https://res.cloudinary.com/fragaria/raw/upload/v1534234755/fragaria.cz/fonts/TriviaGroteskN2-Bold.svg") format("svg");
     font-weight: bold;
     font-style: normal;
     font-display: fallback;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 :root {
 --body-color: #222;
@@ -122,7 +72,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     color: var(--body-color, #222);
-    font-family: "Andulka Text Pro", Helvetica Neue, Arial, sans-serif;
+    font-family: "Fira Sans", Helvetica Neue, Arial, sans-serif;
     font-size: 15px;
     letter-spacing: 0;
     margin: 0;
@@ -697,7 +647,7 @@ body {
 .sidebar ul li.active > a {
     border-right: 2px solid;
     color: var(--theme-color, #ea272e);
-    font-weight: 600;
+    font-weight: 500;
 }
 .app-sub-sidebar li:before {
     content: "-";
@@ -716,11 +666,11 @@ body {
 .markdown-section h4,
 .markdown-section strong {
     color: var(--body-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 .markdown-section a {
     color: var(--theme-color, #ea272e);
-    font-weight: 600;
+    font-weight: 500;
 }
 .markdown-section h1 {
     font-size: 2.7rem;
