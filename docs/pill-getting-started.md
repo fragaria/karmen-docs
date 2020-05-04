@@ -29,9 +29,9 @@ After you've unpacked your Pill, it's time to do the initial configuration.
 Using the **provided USB cable** (microUSB - USB one), connect your Pill box to
 your computer. This cable also serves as the power source so you won't need the
 power adapter just yet. Allow few minutes for Pill to boot up. After couple
-seconds, Pill LED light will signalise it's starting up with a blue light. When
+seconds, Pill LED light will signalise it's starting up with a blinking blue light. When
 the LED turns off, your Pill has booted succesfully and shall be available at
-[169.254.13.1](http://169.254.13.1) local IP. Open up your browser and you
+[pill.karmen.tech](http://pill.karmen.tech). Open up your browser and you
 should be greeted with an introduction page:
 
 <div class="center">
@@ -107,7 +107,8 @@ USB type B goes to your printer USB port. In case you need longer cable for
 connecting the power adapter, you can use the USB extension cord which is also
 included in the Pill package. When you have everything hooked up, plug in the
 included power adapter to the socket and wait until Pill boots up again. Be
-patient, first boot might take as long as 5 minutes.
+patient, first boot might take as long as 5 minutes. You will know Pill has
+booted up once the blue LED light stops blinking.
 
 After a while, your Pill should be accessible with a web browser using the
 hostname you've chosen previously with a **.local** suffix, e.g.
