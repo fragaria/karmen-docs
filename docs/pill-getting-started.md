@@ -84,18 +84,15 @@ As you know, Pill features both webcam and a LED lightning. In order for this to
 work properly, you will need to mount your Pill to the 3D printer itself or
 somewhere near it so that it has a clear view to your printer's bed.
 
-One nice solution is attaching the Pill using a 3D-printed plastic mount
-**directly to the printer heatbed**. If you're an happy owner of Prusa MK3, we already
-have a [mount ready for you on
-Thingiverse](https://www.thingiverse.com/thing:4267454). Just go ahead, grab it
-and print it (we recommend white or red PETG!). Once you have it finished, you
-should be able to mount Karmen Pill to the edge below the heatbed so that your
-Pill will move back and forth whenever the heatbed moves. We think this is the
-best location possible since it allows for a nice view: distance from Pill camera
-to extruder is quite similar most of the time.
+To simplify this, we are continually building up a collection of **ready-made
+designs** that can be 3D-printed easily. See the [collection on
+Thingiverse](https://www.thingiverse.com//tag:karmen), pick the design for your
+printer brand and print it—we recommend white or red PETG!
 
-!> We kindly ask our community members to **share their customized Pill holder models with us**. We
-will gladly mention them right here at this docs site.
+!> We kindly ask our community members to **share their customized Pill holder
+models with us**. If you have a design that others can benefit from, ping us on
+[info@karmen.tech](mailto:info@karmen.tech) and we will gladly add it to our
+official collection. Or just add the `karmen` tag to your Thingiverse design.
 
 ### Connecting
 
