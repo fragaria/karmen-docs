@@ -86,13 +86,14 @@ somewhere near it so that it has a clear view to your printer's bed.
 
 To simplify this, we are continually building up a collection of **ready-made
 designs** that can be 3D-printed easily. See the [collection on
-Thingiverse](https://www.thingiverse.com//tag:karmen), pick the design for your
+Thingiverse](https://www.thingiverse.com/KarmenTech/collections/karmen-pill-holders), pick the design for your
 printer brand and print it—we recommend white or red PETG!
 
 !> We kindly ask our community members to **share their customized Pill holder
 models with us**. If you have a design that others can benefit from, ping us on
 [info@karmen.tech](mailto:info@karmen.tech) and we will gladly add it to our
-official collection. Or just add the `karmen` tag to your Thingiverse design.
+official collection. Also, it's a good idea to add the `karmen` and `pill` tags
+to your Thingiverse design.
 
 ### Connecting
 
