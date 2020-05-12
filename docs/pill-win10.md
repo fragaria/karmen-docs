@@ -63,8 +63,10 @@ Next, click on **Let me pick from a list of available drivers on my computer**.
 
 </div>
 
-Finally, select **USB Ethernet/RNDIS Gadget** and confirm your choice by
-clicking on the **Next** button.
+Finally, select **USB Ethernet/RNDIS Gadget** driver and confirm your choice by
+clicking on the **Next** button. See the [section
+below](pill-win10.md?id=dowloading-usb-driver-if-it39s-missing) if you can't see
+the driver in the list, you will need to download it first.
 
 <div class="center">
 
@@ -86,6 +88,46 @@ The device might be named differently (*Ethernet 3* in this case). The important
 bit is whether it reports **USB Ethernet/RNDIS Gadget** as the network adapter
 name.
 
+## Dowloading USB driver if it's missing
+
+If you can't select **USB Ethernet/RNDIS Gadget** driver, it means it's missing
+on your machine and you need to download it first. Navigate to [Windows Update
+Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=usb%20vid_0525%20pid_a4a2),
+choose an appropriate version according to your OS and download it.
+
+<div class="center">
+
+![Download driver 1](_media/pill-win10/download-driver-1.jpg)
+
+</div>
+
+The downloaded file will be a `.cab` archive which you need to extract by double
+clicking on it. Two files will be left after extracting it. Then, follow the
+guide as described in [previous
+section](pill-win10.md?id=forcing-the-right-driver-for-the-usb-device) but
+select **Have disk...** option on the driver selection page instead of selecting
+the driver from the option list.
+
+<div class="center">
+
+![Download driver 2](_media/pill-win10/download-driver-3.jpg)
+
+</div>
+
+You will be asked to select directory with the driver. Use the file browser to
+navigate to the directory where you've extracted the driver archive previously
+and select the **RNDIS** file.
+
+<div class="center">
+
+![Download driver 2](_media/pill-win10/download-driver-4.jpg)
+
+</div>
+
+Rest of the installation **stays the same**. Continue with the driver installation
+as described above.
+
+
 ## Bypassing the Windows firewall temporarily
 
 Some connection problems might be hapenning due to Windows 10 firewall
@@ -102,7 +144,8 @@ Start by opening the **Windows Defender Firewall** settings.
 
 </div>
 
-Now **turn the firewall off** using the menu item on the left of the firewall window.
+Now **turn the firewall off** using the menu item on the left of the firewall
+window.
 
 <div class="center">
 
@@ -110,7 +153,8 @@ Now **turn the firewall off** using the menu item on the left of the firewall wi
 
 </div>
 
-Pill should now be accessible either at [pill.karmen.tech](http://pill.karmen.tech) or at
+Pill should now be accessible either at
+[pill.karmen.tech](http://pill.karmen.tech) or at
 [169.254.13.1](http://169.254.13.1). Configure your Karmen Pill [the usual
 way](pill-getting-started.md?id=initial-configuration) and once you complete the
 configuration wizard, **turn the firewall on again**.
