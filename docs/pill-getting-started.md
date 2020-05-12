@@ -40,6 +40,8 @@ should be greeted with an introduction page:
 
 </div>
 
+!> Having trouble on your Windows 10 computer? See [this guide](pill-win10.md).
+
 ### Setting up the WiFi
 
 Your Pill will ask you to set up the WiFi connection first. Enter your network

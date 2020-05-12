@@ -1,6 +1,6 @@
 # Fixing Pill box not reachable on Windows 10 {docsify-ignore-all}
 
-On some Windows 10 systems, some users have reported Karmen Pill connection
+On some Windows 10 systems, several users have reported Karmen Pill connection
 issues. You might be experiencing one or both of the following:
 
 * **Driver problem**: an inappropriate USB driver might be used for your Pill
