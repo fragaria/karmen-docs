@@ -87,30 +87,16 @@ your Karmen setup:
 
 <div class="center">
 
-![Add a printer](_media/printers-add-printer.svg)
-*Adding printer is a little bit different when Karmen runs with cloud mode **disabled** (on the left)/**enabled** (on the right).*
+![Add a printer](_media/printers-add-printer.jpg)
+*Adding printer is a little different when Karmen runs with cloud mode **disabled** (on the left)/**enabled** (on the right).*
 
 </div>
 
-You have to enter your box token or IP address depending on your Karmen setup.
-With [cloud mode](on-premise.md?id=configuration) enabled, **Karmen Pill token**
-is required. With cloud mode disabled, **box IP address** is required instead.
-Please note that running in cloud mode currently means you can only use Karmen
-Pill boxes. If you intend to connect OctoPrint boxes, too, you need to disable
-the cloud mode (see reasons behind this in the box below). This doesn't mean
-your Karmen Pill boxes won't work. You simply enter their IP address instead of
-tokens and they will work just fine. Also note that our hosted Karmen option
-runs in cloud mode. Therefore, we only support Karmen Pill devices on
-[cloud.karmen.tech](https://cloud.karmen.tech) at the time of this writing.
-
-!> OctoPrint-based boxes are currently supported only when running Karmen on your [own
-server](on-premise.md) with the [cloud mode](on-premise.md?id=configuration)
-disabled. The reason behind this is *networking*. In order to avoid complicated
-settings on you router, the Karmen SaaS needs a special [web socket
-proxy](https://github.com/fragaria/websocket-proxy) to be running on the
-controller device. We plan to describe how to setup this in near future on your
-custom OctoPrint boxes too, so that you will be able to connect your existing
-devices even in cloud mode.
+You have to enter your box code or IP address depending on your Karmen setup.
+With [cloud mode](on-premise.md?id=configuration) enabled, **Karmen Pill code** (or the connection key if using a raw OctoPrint box)
+is required. With cloud mode disabled, **printer IP address** is always required
+instead. If you intend to add an OctoPrint box, see [Adding an OctoPrint
+device](printers.md?id=adding-an-octoprint-device).
 
 When dealing with IP addresses, it is essential that the **address is reachable by
 your Karmen deployment**. Easiest way to make sure is to run both Karmen and
@@ -135,8 +121,8 @@ your fleet.
 ### Adding a Karmen Pill
 
 Adding your Pill to Karmen is as easy as it gets. Simply fill up your desired
-printer name and enter the Pill token (or its IP address as mentioned above) you
-got when you ran the [initial
+printer name and enter the Pill token in the Printer token field (or its IP
+address as mentioned above) you got when you ran the [initial
 configuration](pill-getting-started.md?id=initial-configuration). You can left
 the API key field empty, it is not mandatory for Pill boxes. Confirm addition by
 clicking **Add printer** and you're good to go.
@@ -148,15 +134,46 @@ section on how to recover it.
 
 ### Adding an OctoPrint device
 
-Adding OctoPrint device always means using its IP address. In case your
-OctoPrint box is
-[password-protected](http://docs.octoprint.org/en/master/features/accesscontrol.html#sec-features-access-control)
-(which is always a good idea!), you will also need to provide Karmen with an
-OctoPrint API key to use for
-[authorization](http://docs.octoprint.org/en/master/api/general.html#authorization).
-API key can be obtained using the Application Keys Plugin as mentioned in the
-[OctoPrint
+Karmen supports common OctoPrint boxes like the popular
+[OctoPi](https://github.com/guysoft/OctoPi) bundle for Raspberry Pi. To add your OctoPrint box, just select
+*Other device* instead of Karmen Pill in the *I'm adding* field.
+
+<div class="center">
+
+![Add an OctoPrint box](_media/printers-add-octoprint.png ":size=600x280")
+
+</div>
+
+Compared to Karmen Pill, the setup is a little more difficult since you will
+need to teach your box how to establish a connection with our public
+[websocket-proxy](https://github.com/fragaria/websocket-proxy) instance in order
+to avoid difficult networking challenges—a feature that Karmen Pill is bundled
+with out from the box. The public instance address is
+`https://cloud.karmen.tech/octoprint-connector`. You will also need the
+connection key which will be automatically generated for you in the *Connection
+key* field while adding your printer.
+
+After adding your printer, you will need to install the
+[karmen-octoprint-connector](https://github.com/fragaria/karmen-octoprint-connector)
+utility and run it on your machine against our public websocket proxy instance
+using the *Connection key*. Also, to enable your webcam in Karmen, you will need
+to tweak your OctoPrint settings a little bit.
+
+We've thoroughly described the procedure in our blog post which we **strongly
+encourage** you to read first.
+
+### Using OctoPrint access control
+
+Both Karmen Pill and raw OctoPrint boxes can be used with OctoPrint [access
+control]((http://docs.octoprint.org/en/master/features/accesscontrol.html#sec-features-access-control)
+enabled. In such case, expand the **Advanced options** when adding your printer and
+provide Karmen with the API key for
+[authorization](http://docs.octoprint.org/en/master/api/general.html#authorization)
+as well. If you're not sure how to get one, see **Application Keys Plugin**
+section in the [OctoPrint
 docs](http://docs.octoprint.org/en/master/bundledplugins/appkeys.html#sec-bundledplugins-appkeys).
+
+
 
 ## Removing printers
 

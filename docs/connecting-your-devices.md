@@ -26,8 +26,7 @@ give you few tips anyway to get you started.
 OctoPrint installation can be greatly simplified by using a Raspbian-derived
 image with a pre-configured installation called
 [OctoPi](https://github.com/guysoft/OctoPi) that is designed for Raspberry Pi
-microcomputers. Of course, in order for things to work, you will need to make
-sure your OctoPrint instance is **accessible over the network**. See [Adding
+microcomputers. See [Adding
 OctoPrint devices](printers.md?id=adding-octoprint-devices) section in the
 [Managing printers docs](printers.md?id=adding-new-printers) for more details on
 how to connect it once you have it up and running.

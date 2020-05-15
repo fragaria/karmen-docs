@@ -347,3 +347,4 @@ These can help you if your deployment requires some special care.
 | `KARMEN_REDIS_PORT`          | `6379`           | Port of Redis storage. You don't have to use the dockerized instance bundled within the release.                                                       |
 | `KARMEN_NETWORK_TIMEOUT`     | `5`              | Timeout for HTTP reads in seconds.                                                                                                                     |
 | `KARMEN_VERIFY_CERTIFICATES` | `1`              | Whether the app should verify HTTPS certificates. You should only change this setting if you know exactly what you are doing.                          |
+| `KARMEN_TOKEN_SERVER_API_URL` | `None`          | An optional token server API URL to issue connection keys with. Will generate radomized keys instead if not provided. |

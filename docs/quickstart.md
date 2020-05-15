@@ -78,7 +78,11 @@ Alternatively, you can initiate the same action from the G-code library
 listing any time in the future. Right now though, we want to proceed with the
 print. Click on the **Print G-code** button.
 
-**TODO: add missing image to illustrate this**
+<div class="center">
+
+![Printer selection](_media/quickstart-printer-selection.png ":size=600x357")
+
+</div>
 
 You will be requested to select the printer you want to print this file on.
 Since you only have one printer registered, the choice is quite obvious. Later,
@@ -93,13 +97,18 @@ What's next? Well, it's always a good idea to see how your printer is doing
 especially in the beginning of the print. You can quickly get to the printer
 overview page from anywhere by clicking the Karmen logo at the top-left of the screen.
 
-**TODO: add missing image to illustrate this**
 
 You can try switching the view from the default [list
 view](printing.md?id=list-view) to [grid view](printing.md?id=grid-view). The
 grid view is great for monitoring all your printers visually at the same time!
 When you click on your printer, you can also review all the important little
 details (like ETA, print progress, extruder temperature etc.).
+
+<div class="center">
+
+![Printer detail](_media/quickstart-printer-detail.png ":size=600x357")
+
+</div>
 
 If you've read this far, you now know everything you need to use Karmen instead of
 oldschool SD cards to transfer your `.gcode` files. But Karmen offers much more:
