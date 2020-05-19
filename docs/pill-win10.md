@@ -74,9 +74,10 @@ the driver in the list, you will need to download it first.
 
 </div>
 
-Close the confirmation window and verify your device can be seen as **USB
-Ethernet/RNDIS Gadget** under **Network adapters**. Also, it is a good idea to
-verify your Pill box can be seen in the **Network Connections** settings:
+Close the confirmation window, **disconnect Karmen Pill and reconnect it once
+again**. Verify your device can be seen as **USB Ethernet/RNDIS Gadget** under
+**Network adapters**. Also, it is a good idea to verify your Pill box can be
+seen in the **Network Connections** settings:
 
 <div class="center">
 
@@ -153,7 +154,7 @@ window.
 
 </div>
 
-Pill should now be accessible either at
+Finally, **disconnect your Karmen Pill and reconnect it again**. It should now be accessible either at
 [pill.karmen.tech](http://pill.karmen.tech) or at
 [169.254.13.1](http://169.254.13.1). Configure your Karmen Pill [the usual
 way](pill-getting-started.md?id=initial-configuration) and once you complete the
