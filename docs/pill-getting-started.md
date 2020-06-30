@@ -140,8 +140,9 @@ a printer** button and then following dialog will be displayed:
 Select a nice name for your new printer, enter the token you've been given
 previously at the end of [WiFi
 setup](pill-getting-started.md?id=setting-up-the-wifi) in the *Printer token*
-field and hit **Add printer** to confirm it (API key field is not required with
-Karmen Pill). Assuming that everything went smoothly, you should now see your
+field and hit **Add printer** to confirm it (API key field, hidden under 
+advanced options, is not required withKarmen Pill). 
+Assuming that everything went smoothly, you should now see your
 new Karmen Pill box under Printers list (*Printers* menu item). **Happy
 printing!**
 
