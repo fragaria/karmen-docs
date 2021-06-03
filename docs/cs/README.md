@@ -6,6 +6,8 @@ naleznete v [anglické verzi]().
 ## Návody {docsify-ignore}
 
 - [Nastavení PrusaSliceru s Karmen](cs/prusaslicer-gcode-upload.md)
+- [Připojení Pillu k počítači s operačním systémem Windows](cs/windows.md)
+
 
 ## Podpora {docsify-ignore}
 
