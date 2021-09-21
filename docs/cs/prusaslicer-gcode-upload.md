@@ -13,16 +13,18 @@ Aby mohl PrusaSlicer nahrávat soubory přímo do Karmen, budeme v dalších č�
 
 ## Vytvoření API klíče
 
-Aby mohl PrusaSlicer komunikovat s Karmen (odesílát Gcody), musíte si nejdříve vygenerovat API klíč.
+Aby mohl PrusaSlicer komunikovat s Karmen (odesílat Gcody), musíte si nejdříve vygenerovat API klíč.
 API klíč si vytvoříte v nastavení v Karmen Cloud na stránce [Settings > API tokens](https://next.karmen.tech/settings/api-tokens).
 
 > Tip: Do políčka s názvem klíče zadejte takový text, ze kterého i v budoucnu poznáte, k čemu se daný klíč používá.
 
 <borderedImage>![Create API token](_media/account-create-api-token.png ":size=600x295")</borderedImage>
 
-Následně se zobrazí stránka s klíčem, který budeme potřebovat později - zatím si tedy nechejte tuto stránku otevřenou.
+Následně se zobrazí stránka s klíčem, který budeme potřebovat později.
 
 <borderedImage>![Copy API token](_media/account-copy-api-token.png ":size=600x295")</borderedImage>
+
+> Tip: Zatím si nechejte stránku se zobrazným API klíčem otevřenou - po přechodu na jinou stránku nebo zavření internetového prohlížeče, již nelze klíč znovu zobrazit. Můžete si však případně vytvořit API klíč nový.
 
 ## Nastavení PrusaSliceru
 
@@ -30,10 +32,10 @@ V záložce "Printer Settings" klikněte na ikonku nastavení tiskárny:
 
 <borderedImage>![Prusaslicer Print Host Upload Settings 1](_media/prusaslicer-print-host-upload-settings-1.png ":size=600x295")</borderedImage>
 
-V okně s nastavením tiskárny pak zadejte následující:
+V okně s nastavením tiskárny pak zadejte:
 
 - Host Type: ```OctoPrint ```
-- Hostname: ```viz Octoprint Upload Url v návodu výše```
+- Hostname: ```viz "Octoprint Upload Url" v návodu výše```
 - API Key: ```klíč, který jste si vytvořili v jednom z předchozích kroků```
 
 <borderedImage>![Prusaslicer Print Host Upload Settings 2](_media/prusaslicer-print-host-upload-settings-2.png ":size=600x295")</borderedImage>
