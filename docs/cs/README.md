@@ -1,4 +1,4 @@
-# Karmen
+# Vítejte, jak Vám můžeme pomoci?
 
 Na této stránce naleznete dokumentaci ke Karmen v českém jazyce. Více informací
 naleznete v [anglické verzi]().
@@ -9,9 +9,9 @@ naleznete v [anglické verzi]().
 - [Připojení Pillu k počítači s operačním systémem Windows](cs/windows.md)
 
 
-## Podpora {docsify-ignore}
+## Nenalezli jste odpověď na svůj dotaz? {docsify-ignore}
 
-Pokud budete nějaké dotazy, kontaktujte nás některým z dalších způsobů, jsme Vám plně k dispozici.
+Kontaktujte nás některou z níže uvedených možností:
 
 - [Gitter](https://gitter.im/fragaria/karmen)
 - [Facebook](https://www.facebook.com/karmen3D/)

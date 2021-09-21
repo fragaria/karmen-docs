@@ -1,31 +1,48 @@
 # Nastavení PrusaSliceru s Karmen
 
 Pokud používáte ke slicování [PrusaSlicer](https://www.prusa3d.com/prusaslicer/), určitě Vás bude zajímat,
-jakým způsobem můžete nahrát své Gcody z PrusaSliceru přímo do Karmen.
+že můžete posílat své tiskové soubory (Gcodes) z PrusaSliceru přímo do Karmen.
+
+!> Tento návod je vytvořen pro PrusaSlicer ve verzi [2.3.3](https://github.com/prusa3d/PrusaSlicer/releases/tag/version_2.3.3). Pokud máte jinou verzi, některé kroky mohou být odlišné.
+
+## Adresa Octoprint serveru
+
+Aby mohl PrusaSlicer nahrávat soubory přímo do Karmen, budeme v dalších částech návodu potřebovat adresu serveru. Adresu serveru si zobrazíte v nastavení Vašeho účtu.
+
+<borderedImage>![Create API token](_media/prusaslicer-octoprint-upload-url.png ":size=600x295")</borderedImage>
 
 ## Vytvoření API klíče
 
-Aby mohl PrusaSlicer komunikovat s Karmen (odesílát Gcody), musíme si nejdříve v Karmen vygenerovat API klíč.
-API klíč si vytvoříte po přihlášení v Karmen Cloud na stránce [Account Settings > API tokens](https://cloud.karmen.tech/users/me/tab-api-tokens).
+Aby mohl PrusaSlicer komunikovat s Karmen (odesílát Gcody), musíte si nejdříve vygenerovat API klíč.
+API klíč si vytvoříte v nastavení v Karmen Cloud na stránce [Settings > API tokens](https://next.karmen.tech/settings/api-tokens).
 
-Stačí zadat libovolný název klíče a kliknout na tlačítko “CREATE TOKEN”.
+> Tip: Do políčka s názvem klíče zadejte takový text, ze kterého i v budoucnu poznáte, k čemu se daný klíč používá.
 
 <borderedImage>![Create API token](_media/account-create-api-token.png ":size=600x295")</borderedImage>
 
-Následně se zobrazí stránka s klíčem, který si zkopírujte (CTRL+C).
+Následně se zobrazí stránka s klíčem, který budeme potřebovat později - zatím si tedy nechejte tuto stránku otevřenou.
 
 <borderedImage>![Copy API token](_media/account-copy-api-token.png ":size=600x295")</borderedImage>
 
 ## Nastavení PrusaSliceru
 
-V záložce PrinterSettings nastavte následující:
+V záložce "Printer Settings" klikněte na ikonku nastavení tiskárny:
 
-- Hostname: ```https://cloud.karmen.tech/api/octoprint-emulator/```
-- API Key: ```klíč, který jste si zkopírovali v předchozím kroku```
+<borderedImage>![Prusaslicer Print Host Upload Settings 1](_media/prusaslicer-print-host-upload-settings-1.png ":size=600x295")</borderedImage>
 
-<borderedImage>![Prusaslicer Print Host Upload Settings](_media/prusaslicer-print-host-upload-settings.png ":size=600x295")</borderedImage>
+V okně s nastavením tiskárny pak zadejte následující:
 
-Nyní, když mám vyslicovaný model, tak vidím tlačítko odeslání tisku do Karmen:
+- Host Type: ```OctoPrint ```
+- Hostname: ```viz Octoprint Upload Url v návodu výše```
+- API Key: ```klíč, který jste si vytvořili v jednom z předchozích kroků```
+
+<borderedImage>![Prusaslicer Print Host Upload Settings 2](_media/prusaslicer-print-host-upload-settings-2.png ":size=600x295")</borderedImage>
+
+> Tip: Pro ověření správné komunikace mezi PrusaSlicerem a Karmen, klikněte v nastavovacím dialogu na tlačítko test.
+
+## Odeslání Gcodu do Karmen
+
+V tuto chvíli byste měli mít nastaven PrusaSlicer tak, že je schopen komunikovat s Karmen. Ve chvíli, kdy máte připraven model pro tisk, tak se v pravém dolním rohu PrusaSliceru objeví nové tlačítko, pro nahrání Gcodu přímo do Karmen.
 
 <borderedImage>![Prusaslicer Send To Karmen Button](_media/prusaslicer-send-to-karmen-button.png ":size=600x295")</borderedImage>
 
