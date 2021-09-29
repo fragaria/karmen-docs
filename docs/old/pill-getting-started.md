@@ -19,7 +19,7 @@ In your Pill package, you will find following items:
 
 - **Karmen Pill** controller (obviously)
 - **Power adapter** for the region you've selected during order
-- An **USB - microUSB** cable for connecting your Pill to your computer during [initial configuration](pill-getting-started.md?id=initial-configuration)
+- An **USB - microUSB** cable for connecting your Pill to your computer during [initial configuration](old/pill-getting-started.md?id=initial-configuration)
 - An **USB type B - microUSB + USB** cable for both connecting your Pill to your printer and powering it at the same time
 - An **USB extension cord** when your power socket is further away
 
@@ -93,7 +93,7 @@ printer brand and print it—we recommend white or red PETG!
 
 !> We kindly ask our community members to **share their customized Pill holder
 models with us**. If you have a design that others can benefit from, ping us on
-[info@karmen.tech](mailto:info@karmen.tech) and we will gladly add it to our
+[karmen@karmen.tech](mailto:karmen@karmen.tech) and we will gladly add it to our
 official collection. Also, it's a good idea to add the `karmen` and `pill` tags
 to your Thingiverse design.
 
