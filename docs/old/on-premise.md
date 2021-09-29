@@ -48,7 +48,7 @@ The database schema is created automatically upon the first start and is kept up
 to date during updates. The datafiles are created on your filesystem, not inside
 the container, so no data will be lost during Karmen's downtime.
 
-Karmen needs to be [configured](on-premise.md?id=configuration) before first
+Karmen needs to be [configured](old/on-premise.md?id=configuration) before first
 launch. It is done exclusively with [environment
 variables](https://en.wikipedia.org/wiki/Environment_variable). The only
 required one is `KARMEN_SECRET_KEY` which you should set to something secret and
@@ -66,7 +66,7 @@ provide `KARMEN_SOCKET_API_URL` variable which points to the websocket proxy
 instance.
 
 If you want to allow user registration, you need to configure a mailing service
-as well. Consult the [configuration](on-premise.md?id=configuration) section for
+as well. Consult the [configuration](old/on-premise.md?id=configuration) section for
 more information.
 
 Finally, you can start all of the services. During the first startup, the script
@@ -81,7 +81,7 @@ KARMEN_CLOUD_MODE=0 KARMEN_SECRET_KEY=[secret key] ./run-karmen.sh
 
 Once command finishes, a browser-accessible frontend app will be available on
 the standard HTTP port 80. Again, consult the
-[configuration](on-premise.md?id=configuration) section for more configruation
+[configuration](old/on-premise.md?id=configuration) section for more configruation
 options including the used ports.
 
 You can see the UI by accessing the public IP address of your machine, or by visiting the
@@ -138,7 +138,7 @@ WantedBy=multi-user.target
 `/usr/bin/` scripts are just links to the aforementioned `run-karmen.sh` and `stop-karmen.sh` scripts.
 
 You should also keep your installation up-to-date at all times. There is
-[dedicated docs section](on-premise.md?id=updating) on this topic.
+[dedicated docs section](old/on-premise.md?id=updating) on this topic.
 
 ### Configuring user access
 
@@ -152,7 +152,7 @@ else can hijack the installation from you.
 There is also a *Default organization* ready for you. You can rename it at any
 time. As an administrator, you can invite more users to your organization. That
 requires a working mailing service. See
-[configuration](on-premise.md?id=configuration) section to learn how to
+[configuration](old/on-premise.md?id=configuration) section to learn how to
 configure it.
 
 Also, for some actions, such as another password change or adding users, you
@@ -160,7 +160,7 @@ need to re-authenticate with your password from time to time. Don't be
 alarmed if the application prompts for your password again.
 
 For more information about users and organizations, see [Managing access &
-organizations docs](access.md).
+organizations docs](old/access.md).
 
 ## Updating
 
@@ -181,7 +181,7 @@ We have prepared an update script that can perform all of the steps for you.
 **However, it doesn't hurt to always have a manual backup before running an
 automated update.**
 
-If you've followed the [installation guide](on-premise.md?id=installation), you
+If you've followed the [installation guide](old/on-premise.md?id=installation), you
 should have the `karmen` directory in Raspberry Pi's home directory of `/home/pi`.
 There should also be the `update.sh` script. It does all the steps described
 below for you and after running it, you should be ready to start Karmen again
@@ -220,8 +220,8 @@ doing that, take the following list as an inspiration on how it can be done.
 ### Using Karmen Pill and Karmen SaaS
 
 To most straightforward solution is to get our [Karmen
-Pill](pill-getting-started.md) and register it with our cloud service. Follow
-the [docs guide](pill-getting-started.md) to get started. You can [order your
+Pill](old/pill-getting-started.md) and register it with our cloud service. Follow
+the [docs guide](old/pill-getting-started.md) to get started. You can [order your
 Pill online](https://karmen.tech) on our website.
 
 ### Deployment accessible from the internet
@@ -298,7 +298,7 @@ tend to be better.
 ## Configuration
 
 If you are running Karmen in the [recommended
-way](on-premise.md?id=installation), you can adjust the software's behaviour by
+way](old/on-premise.md?id=installation), you can adjust the software's behaviour by
 various environment variables.
 
 These are interpreted in the `docker-compose.yml` file that is part of the

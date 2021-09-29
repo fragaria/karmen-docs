@@ -72,7 +72,7 @@ the respective user record (except yourself).
 
 After clicking **Delete**, a confirmation box will appear to make sure you are
 indeed serious about that. If you change your mind later on anyway, you will
-have to [invite the user again](access.md?id=adding-new-users).
+have to [invite the user again](old/access.md?id=adding-new-users).
 
 <div class="center">
 

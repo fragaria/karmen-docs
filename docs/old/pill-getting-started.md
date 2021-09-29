@@ -2,8 +2,8 @@
 
 This tutorial will guide you through the first launch of your new Karmen Pill
 box. We will cover whole setup from the [initial
-config](pill-getting-started.md?id=initial-configuration) all the way down to
-[linking Pill with Karmen](pill-getting-started.md?id=linking-with-karmen). Once
+config](old/pill-getting-started.md?id=initial-configuration) all the way down to
+[linking Pill with Karmen](old/pill-getting-started.md?id=linking-with-karmen). Once
 finished, you should have fully working Karmen bundle and be able to manage your
 printer remotely.
 
@@ -40,7 +40,7 @@ should be greeted with an introduction page:
 
 </div>
 
-!> Having trouble on your Windows 10 computer? See [this guide](pill-win10.md).
+!> Having trouble on your Windows 10 computer? See [this guide](old/pill-win10.md).
 
 ### Setting up the WiFi
 
@@ -139,13 +139,13 @@ a printer** button and then following dialog will be displayed:
 
 Select a nice name for your new printer, enter the token you've been given
 previously at the end of [WiFi
-setup](pill-getting-started.md?id=setting-up-the-wifi) in the *Printer token*
-field and hit **Add printer** to confirm it (API key field, hidden under 
-advanced options, is not required withKarmen Pill). 
+setup](old/pill-getting-started.md?id=setting-up-the-wifi) in the *Printer token*
+field and hit **Add printer** to confirm it (API key field, hidden under
+advanced options, is not required withKarmen Pill).
 Assuming that everything went smoothly, you should now see your
 new Karmen Pill box under Printers list (*Printers* menu item). **Happy
 printing!**
 
 If you didn't have a chance to read through Karmen docs, it is now a good time
 to do that to get yourself familiar with Karmen features. The [quickstart
-guide](quickstart.md) is a good starting point.
+guide](old/quickstart.md) is a good starting point.

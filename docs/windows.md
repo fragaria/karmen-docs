@@ -1,11 +1,11 @@
 # Úvodní zapojení Karmen Pill na zařízení s Windows
 
-Pokud používáte zařízení s operačním systémem Windows, bude třeba nejprve stáhnout ovladač, který v tomto operačním systému chybí. 
+Pokud používáte zařízení s operačním systémem Windows, bude třeba nejprve stáhnout ovladač, který v tomto operačním systému chybí.
 
 ## Spojení Pillu s počítačem
 
-Nejprve připojte Pill k počítači dodaným USB kabelem. Pozor, pokud využijete vlastní kabel, dbejte na to, aby umužňoval přenášet data a nebyl pouze nabíjecí. 
-Počkejte až se Pill modře rozsvítí a následně zhasne. 
+Nejprve připojte Pill k počítači dodaným USB kabelem. Pozor, pokud využijete vlastní kabel, dbejte na to, aby umužňoval přenášet data a nebyl pouze nabíjecí.
+Počkejte až se Pill modře rozsvítí a následně zhasne.
 Potom přejděte na URL pro [stažení ovladače](https://www.catalog.update.microsoft.com/Search.aspx?q=usb%20vid_0525%20pid_a4a2).
 
 <borderedImage>![download-driver-1](_media/download-driver-1.jpg ":size=1200x590")</borderedImage>
@@ -32,7 +32,7 @@ Nyní rozklinete ```PORTY (COM A LPT)```, kliknete pravým tlačítkem na ```Sé
 
 
 
-!> Nevidíte PORTY (COM A LPT)? [Podívejte se sem](cs/porty.md).
+!> Nevidíte PORTY (COM A LPT)? [Podívejte se sem](porty.md).
 
 
 Dále z nabízených možností zvolte ```Vyhledat ovladače na mém počítači``` a
@@ -56,7 +56,7 @@ Nyní Pill odpojte, znovu připojte a měli byste jej vidět jako ```USB Etherne
 Potom co se Pill opět rozvítí a následně zhasne přejděte v prohlížeči na stránku [pill.karmen.tech](http://pill.karmen.tech/) a zde nastavte název pillu, jméno a heslo Vaší wifi, na kterou se má Pill připojit (použijte wifi 2.4GHz, nikoliv 5GHZ).
 V dalším kroku zkopírujete dlouhý kód, který se vam objeví. Budete jej potřebovat pro přidání tiskárny.
 
-!> Stránka pill.karmen.tech se Vám stále nenačítá? Nejspíš budet muset dočasně **vypnout firewall**. [Podívejte se sem](cs/firewall.md).
+!> Stránka pill.karmen.tech se Vám stále nenačítá? Nejspíš budet muset dočasně **vypnout firewall**. [Podívejte se sem](firewall.md).
 
 <borderedImage>![wifi-1](_media/wifi-1.png ":size=1200x590")</borderedImage>
 
@@ -69,7 +69,7 @@ Odpojte Pill od počítače a připojte jej k tiskárně. V prohlížeči zadejt
 
 Zvolte název tiskárny a vložte kód, který jste zkopirovali v [pill.karmen.tech](http://pill.karmen.tech/).
 Nyní můžete připojit Pill k tiskárně, počkejte, až se rozsvítí a zhasne.
-Na stránce [cloud.karmen.tech] (https://cloud.karmen.tech/) v menu ```Printers``` vyberte nově přidanou tiskárnu a rozkliknete ji. Pár minut počkejte a pak zkuste refreshnout stránku (zpravidla klávesou F5). Měli byste vidět obraz na kameře a podobnou obrazovku: 
+Na stránce [cloud.karmen.tech] (https://cloud.karmen.tech/) v menu ```Printers``` vyberte nově přidanou tiskárnu a rozkliknete ji. Pár minut počkejte a pak zkuste refreshnout stránku (zpravidla klávesou F5). Měli byste vidět obraz na kameře a podobnou obrazovku:
 
 <borderedImage>![printer-3](_media/printer-3.png ":size=1200x590")</borderedImage>
 
@@ -77,18 +77,18 @@ Nahoře pod názvem tiskárny uvidíte ```Connect``` klikněte sem a nějakou do
 
 <borderedImage>![printer-4](_media/printer-4.png ":size=1200x590")</borderedImage>
 
-!> Pokud obraz stále i po několika refreshích nevidíte a chybí Vám tlačítko CONNECT nebo obrazovka vypadá i po pár minutách a aktualizaci stránky jako níže, Pill není připojen na wifi. Zkontrolujte proto kroky pro připojení na wifi.  
+!> Pokud obraz stále i po několika refreshích nevidíte a chybí Vám tlačítko CONNECT nebo obrazovka vypadá i po pár minutách a aktualizaci stránky jako níže, Pill není připojen na wifi. Zkontrolujte proto kroky pro připojení na wifi.
 
 <borderedImage>![printer-2](_media/printer-2.png ":size=1200x590")</borderedImage>
 
 
 ## Kompletní dokumentace Karmen Pill a Cloud
 
-Odkaz na kompletní [návod ke Karmen Pillu a Cloudu a dokumentaci](https://docs.karmen.tech/#/pill-getting-started) najdete zatím pouze v angličtině. 
+Odkaz na kompletní [návod ke Karmen Pillu a Cloudu a dokumentaci](https://docs.karmen.tech/#/pill-getting-started) najdete zatím pouze v angličtině.
 
 ## Držáky na Pill k tisku
 
-Pokud si budete na Pill chtít pořídit držák, mrkněte do knihovny, kterou vyrobili naši klienti.  
+Pokud si budete na Pill chtít pořídit držák, mrkněte do knihovny, kterou vyrobili naši klienti.
 
 https://www.thingiverse.com/thing:4764591
 

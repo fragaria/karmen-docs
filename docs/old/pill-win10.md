@@ -65,7 +65,7 @@ Next, click on **Let me pick from a list of available drivers on my computer**.
 
 Finally, select **USB Ethernet/RNDIS Gadget** driver and confirm your choice by
 clicking on the **Next** button. See the [section
-below](pill-win10.md?id=dowloading-usb-driver-if-it39s-missing) if you can't see
+below](old/pill-win10.md?id=dowloading-usb-driver-if-it39s-missing) if you can't see
 the driver in the list, you will need to download it first.
 
 <div class="center">
@@ -105,7 +105,7 @@ choose an appropriate version according to your OS and download it.
 The downloaded file will be a `.cab` archive which you need to extract by double
 clicking on it. Two files will be left after extracting it. Then, follow the
 guide as described in [previous
-section](pill-win10.md?id=forcing-the-right-driver-for-the-usb-device) but
+section](old/pill-win10.md?id=forcing-the-right-driver-for-the-usb-device) but
 select **Have disk...** option on the driver selection page instead of selecting
 the driver from the option list.
 
@@ -157,6 +157,6 @@ window.
 Finally, **disconnect your Karmen Pill and reconnect it again**. It should now be accessible either at
 [pill.karmen.tech](http://pill.karmen.tech) or at
 [169.254.13.1](http://169.254.13.1). Configure your Karmen Pill [the usual
-way](pill-getting-started.md?id=initial-configuration) and once you complete the
+way](old/pill-getting-started.md?id=initial-configuration) and once you complete the
 configuration wizard, **turn the firewall on again**.
 

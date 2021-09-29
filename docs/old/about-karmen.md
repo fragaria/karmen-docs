@@ -20,7 +20,7 @@ controlling a single printer, multi-printer setup is still an issue. Karmen is
 here to fill the gap and save you from browser tab schizofrenia. Karmen is a
 perfect fit for a shared makerspaces, small batch part factories or a public
 schools that offer multiple printers to various users. That said, individuals
-will find it valuable too: especially in combination with our [Karmen Pill](pill-getting-started.md) controller
+will find it valuable too: especially in combination with our [Karmen Pill](old/pill-getting-started.md) controller
 box that comes as the ready-to-use 3D printer Karmen countrpart. Using the Pill,
 you can start controlling your 3D printer literally in seconds.
 
@@ -34,7 +34,7 @@ are something we look for!
 
 **Hosted or on-premise:** You can take advantage of our hosted option if you
 just want the get started fast. You can also install Karmen on your own server
-and host it yourself. See [Installing on-premise](on-premise.md) for more
+and host it yourself. See [Installing on-premise](old/on-premise.md) for more
 details.
 
 ## How does it work? {docsify-ignore}
@@ -56,7 +56,7 @@ there are two options:
 
 #### Simple connection using Karmen Pill
 
-Karmen comes together with the [Karmen Pill](pill-getting-started.md) companion box, a
+Karmen comes together with the [Karmen Pill](old/pill-getting-started.md) companion box, a
 plug'n'play device that allows you to get started in a matter of minutes. It
 requires no advanced knowledge of computers and/or networking.
 
@@ -65,4 +65,4 @@ requires no advanced knowledge of computers and/or networking.
 Karmen was made with vast numbers of OctoPrint users in mind. If you are in
 possession of one or multiple OctoPrint boxes and would like to connect those to
 Karmen to have a one single interface to manage them, see [Connecting your
-devices](connecting-your-devices.md#connecting-octoprint-enabled-device).
+devices](old/connecting-your-devices.md#connecting-octoprint-enabled-device).

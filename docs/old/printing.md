@@ -3,7 +3,7 @@
 ## Starting new prints
 
 What purpose would Karmen have if you couldn't start your *prints* using it? To
-start with your first print, make sure you've [uploaded the G-code](gcodes.md) file
+start with your first print, make sure you've [uploaded the G-code](old/codes.md) file
 you would like to work with.
 
 Then, using the app menu, navigate to G-codes listing to locate your G-code
@@ -26,7 +26,7 @@ about current print (i.e. getting rid of a plastic blob that formed on the
 heatbed) or merely to pause the job to avoid running out of the filament (in
 case of older printers without a filament sensor). In such situation, you can
 tell Karmen to pause the print for the printer in question on it's [status
-page](printers.md?id=displaying-printer-status). Look for the **Pause print**
+page](old/printers.md?id=displaying-printer-status). Look for the **Pause print**
 button under the **Controls** tab and hit it. Once the problem is resolved, you
 can simply *resume the print* from the same printer status page you've
 previously paused the print on.
@@ -34,7 +34,7 @@ previously paused the print on.
 ## Cancelling prints
 
 An ongoing print can be *cancelled* from the [printer status
-page](printers.md?id=displaying-printer-status). Before cancelling the print,
+page](old/printers.md?id=displaying-printer-status). Before cancelling the print,
 make sure it's really what you want as there is no way to resume a print after
 it's been cancelled. A confirmation dialog will be displayed to verify your intention.
 
@@ -51,6 +51,6 @@ the print and when it's inactive. Those actions include:
 - *Toggling the printer motors on/off*
 
 You can trigger those actions on the [printer status
-page](printers.md?id=displaying-printer-status) under **Controls** tab.
+page](old/printers.md?id=displaying-printer-status) under **Controls** tab.
 
 ?> **Note:** Support for actions written in *italics* is coming soon.

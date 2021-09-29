@@ -19,7 +19,7 @@ Some people have reported Pill connection problems on their Windows 10 computer.
 If you've **connected your Pill box to your computer**, waited for it to **boot
 up** properly (saw it blinking with blue light which then stopped) and still
 **can't reach Pill on the aforementioned addresses**, follow [this
-guide](pill-win10.md) which should help you solve the issue.
+guide](old/pill-win10.md) which should help you solve the issue.
 
 ## My Pill cannot be found on the WiFi network
 

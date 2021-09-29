@@ -11,7 +11,7 @@ extend the list of options and support smart printers in the future, too.
 ## Connecting Karmen Pill
 
 The easiest option to connect your printer is using our **Karmen Pill**
-companion box. See [Getting started with Karmen Pill](pill-getting-started.md) guide that will
+companion box. See [Getting started with Karmen Pill](old/pill-getting-started.md) guide that will
 lead you through it.
 
 ## Connecting OctoPrint-enabled devices
@@ -27,6 +27,6 @@ OctoPrint installation can be greatly simplified by using a Raspbian-derived
 image with a pre-configured installation called
 [OctoPi](https://github.com/guysoft/OctoPi) that is designed for Raspberry Pi
 microcomputers. See [Adding
-OctoPrint devices](printers.md?id=adding-octoprint-devices) section in the
-[Managing printers docs](printers.md?id=adding-new-printers) for more details on
+OctoPrint devices](old/printers.md?id=adding-octoprint-devices) section in the
+[Managing printers docs](old/printers.md?id=adding-new-printers) for more details on
 how to connect it once you have it up and running.

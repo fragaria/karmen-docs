@@ -1,15 +1,15 @@
 # Managing printers
 
-Each Karmen [organization](access.md?id=managing-organizations) can have its own
+Each Karmen [organization](old/access.md?id=managing-organizations) can have its own
 fleet of 3D printers assigned. Individual 3d printers can be controller using
-any supported [printer connection method](connecting-your-devices.md). Karmen
+any supported [printer connection method](old/connecting-your-devices.md). Karmen
 serves as a central printer management hub integrating all the connected devices
 into single user interface.
 
 ## Displaying printer list
 
 Your whole printer fleet is easily accessible on the **Printer list** page which
-also serves as the entry page of each [organization](access.md). There are two
+also serves as the entry page of each [organization](old/access.md). There are two
 view types that you can switch between using icons above the listing (top-right
 corner).
 
@@ -55,9 +55,9 @@ in the list. You can see various useful information there:
 You can also perform several actions with the printer controller:
 
 - Toggle to turn on/off the LED lighting (on compatible devices)
-- [Start](printing.md?id=starting-new-prints) new prints
-- [Pause](printing.md?id=pausing-and-resuming-ongoing-prints) or
-  [cancel](printing.md?id=cancelling-prints) ongoing prints
+- [Start](old/printing.md?id=starting-new-prints) new prints
+- [Pause](old/printing.md?id=pausing-and-resuming-ongoing-prints) or
+  [cancel](old/printing.md?id=cancelling-prints) ongoing prints
 
 <div class="center">
 
@@ -96,11 +96,11 @@ left)/**enabled** (on the right).*
 </div>
 
 You have to enter your box code or IP address depending on your Karmen setup.
-With [cloud mode](on-premise.md?id=configuration) enabled, **Karmen Pill code**
+With [cloud mode](old/on-premise.md?id=configuration) enabled, **Karmen Pill code**
 (or the connection key if using a raw OctoPrint box) is required. With cloud
 mode disabled, **printer IP address** is always required instead. If you intend
 to add an OctoPrint box, see [Adding an OctoPrint
-device](printers.md?id=adding-an-octoprint-device).
+device](old/printers.md?id=adding-an-octoprint-device).
 
 When dealing with IP addresses, it is essential that the **address is reachable
 by your Karmen deployment**. Easiest way to make sure is to run both Karmen and
@@ -115,7 +115,7 @@ they are connected to the same network. The discovery mode will
 all devices and tries to call the common HTTP(S) ports to discover a compatible
 3D printer service such as OctoPrint. If it finds one, it adds it automatically
 to Karmen. This feature is only available when running Karmen deployment with
-[cloud mode](on-premise.md?id=configuration) disabled.
+[cloud mode](old/on-premise.md?id=configuration) disabled.
 
 You can start the automatic discovery process on the **Organization settings**
 page under the **Printers** tab. You will be asked to select which network
@@ -127,12 +127,12 @@ your fleet.
 Adding your Pill to Karmen is as easy as it gets. Simply fill up your desired
 printer name and enter the Pill token in the Printer token field (or its IP
 address as mentioned above) you got when you ran the [initial
-configuration](pill-getting-started.md?id=initial-configuration). You can left
+configuration](old/pill-getting-started.md?id=initial-configuration). You can left
 the API key field empty, it is not mandatory for Pill boxes. Confirm addition by
 clicking **Add printer** and you're good to go.
 
 !> Can't remember the token your Pill was initialized with? See the
-[Troubleshooting](pill-troubleshooting.md?id=recovering-a-lost-pill-token)
+[Troubleshooting](old/pill-troubleshooting.md?id=recovering-a-lost-pill-token)
 section on how to recover it.
 
 

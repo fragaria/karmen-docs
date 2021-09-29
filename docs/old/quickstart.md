@@ -9,14 +9,14 @@ special knowledge of computers. We'll cover following areas in this guide:
 
 After you complete the quickstart, you should have learn all the necessary
 basics to start using Karmen on daily basis and be ready to start digging
-deeper in more advanced stuff like [managing user access](access.md) or
+deeper in more advanced stuff like [managing user access](old/access.md) or
 [connecting other devices like OctoPrint
-boxes](printers.md?id=adding-an-octoprint-device).
+boxes](old/printers.md?id=adding-an-octoprint-device).
 
 This quickstart also assumes you have a printer already registered with Karmen.
 If you've just received your Karmen Pill haven't set it up yet, you will first
 need to do so. If that's the case, please run through [Getting started with
-Karmen Pill](pill-getting-started.md) and return back here once you finish.
+Karmen Pill](old/pill-getting-started.md) and return back here once you finish.
 
 ## Preparing a print file
 
@@ -99,7 +99,7 @@ overview page from anywhere by clicking the Karmen logo at the top-left of the s
 
 
 You can try switching the view from the default [list
-view](printing.md?id=list-view) to [grid view](printing.md?id=grid-view). The
+view](old/printing.md?id=list-view) to [grid view](old/printing.md?id=grid-view). The
 grid view is great for monitoring all your printers visually at the same time!
 When you click on your printer, you can also review all the important little
 details (like ETA, print progress, extruder temperature etc.).
@@ -113,13 +113,13 @@ details (like ETA, print progress, extruder temperature etc.).
 If you've read this far, you now know everything you need to use Karmen instead of
 oldschool SD cards to transfer your `.gcode` files. But Karmen offers much more:
 
-- See [Managing g-codes](gcodes.md) to learn how to upload G-codes directly from
+- See [Managing g-codes](old/gcodes.md) to learn how to upload G-codes directly from
   your slicer besides the manual upload method described above
-- See [Printing](printing.md) to learn more details on how to manage ongoing
+- See [Printing](old/printing.md) to learn more details on how to manage ongoing
   prints (like pausing and cancelling)
-- See [Managing access & organization](access.md) to learn how to use Karmen in
+- See [Managing access & organization](old/access.md) to learn how to use Karmen in
   larger teams
-- See [Managing printers](printers.md) to learn how to connect more printers
+- See [Managing printers](old/printers.md) to learn how to connect more printers
   efficiently
-- See [Installing on-premise](on-premise.md) if you want to learn how to install
+- See [Installing on-premise](old/on-premise.md) if you want to learn how to install
   Karmen on your own server

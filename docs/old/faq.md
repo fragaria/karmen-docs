@@ -10,13 +10,13 @@ mentioned [here](/?id=getting-help).
 ## How does the network scanning work?
 
 Auto discovery uses the arp-scan. See more info in the
-[printers](printers.md?id=automatic-printer-discovery) section.
+[printers](old/printers.md?id=automatic-printer-discovery) section.
 
 ## How can I add a password protected OctoPrint?
 
 OctoPrint's protected instances can be communicated with by using an API token
 that you can add to each printer on its settings screen. See [Using OctoPrint
-access control](printers.md?id=using-octoprint-access-control) entry for further
+access control](old/printers.md?id=using-octoprint-access-control) entry for further
 information.
 
 ## Can I run more Karmen instances on a single machine?
