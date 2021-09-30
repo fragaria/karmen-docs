@@ -14,7 +14,7 @@ Na této stránce najdete informace a návody jak připojit a nastavit Karmen Pi
 
 Kontaktujte nás některou z níže uvedených možností:
 
-- Email: support@karmen.tech
+- Email: karmen@karmen.tech
 - Web: https://karmen.tech/
 - [Facebook](https://www.facebook.com/karmen3D/)
 - [Twitter](https://twitter.com/karmen3d)
