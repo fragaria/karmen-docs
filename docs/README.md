@@ -1,10 +1,10 @@
-# Vítejte, jak Vám můžeme pomoci?
+# Vítejte, jdeme na to!
 
-Na této stránce naleznete dokumentaci ke Karmen v českém jazyce.
+Na této stránce najdete informace a návody jak připojit a nastavit Karmen Pill a Karmen Cloud. Není se čeho bát, vypadá to složitě, ale za pár minut to máte.
 
 ## Návody {docsify-ignore}
 
-- [Karmen Pill - začínáme](karmen-pill-zaciname.md)
+- [Zapojení Karmen Pill](karmen-pill-zaciname.md)
 - [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
 - [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
 - [Držáky na Pill](drzaky-na-pill.md)
@@ -14,7 +14,8 @@ Na této stránce naleznete dokumentaci ke Karmen v českém jazyce.
 
 Kontaktujte nás některou z níže uvedených možností:
 
-- Email: [support@karmen.tech](mailto:support@karmen.tech)
+- Email: support@karmen.tech
+- Web: https://karmen.tech/
 - [Facebook](https://www.facebook.com/karmen3D/)
 - [Twitter](https://twitter.com/karmen3d)
 

@@ -36,7 +36,7 @@ V konfiguračním průvodci zvolte "nastavení wifi", kde vyplňte údaje o Vaš
 
 ### Přidejte Pill do Cloudu
 
-?> Tento krok předpokládá, že již máte účet v Karmen Cloudu. Pokud ho nemáte, můžete si ho jednoduše [vytvořit](https://next.karmen.tech/).
+?> Tento krok předpokládá, že již máte účet v Karmen Cloudu. Pokud ho nemáte, můžete si ho jednoduše [vytvořit](https://next.karmen.tech/registration/).
 
 Pokud ještě nemáte žádnou tiskárnu, tak po přihlášení uvidíte tlačítko pro přidání tiskárny. Další tiskárny můžete přidávat nebo upravovat v [nastavení](https://next.karmen.tech/settings/printers).
 
@@ -52,11 +52,11 @@ Do formuláře přidání tiskárny vyplňte název tiskárny a kód zařízení
 
 Pokud se Vám podařili všechny předchozí kroky, tak v tuto chvíli máte:
 
-- nastavenou wifi v Pillu - tj. Pill je připojen do internetu
+- nastavenou wifi v Pillu - tj. Pill je bezpečně připojen do internetu
 - máte vytvořen účet v Karmen Cloudu
 - do Karmen Cloudu jste si přidali Pill dle jeho kódu
 
-Ná [úvodní stránce](https://next.karmen.tech/) Karmen Cloudu byste měli vidět nově přidanou tiskárnu. Kliknutím přejděte na detail tiskárny. Pokud je Pill online (je zapnutý a připojený k internetu), tak uvidíte obraz z kamery. Vedle obrazu z kamery bude tlačítko "Připojit", na které klikněte, čímž dojde k navázání datové komunikace mezi Pillem a tiskárnou.
+Na [úvodní stránce](https://next.karmen.tech/) Karmen Cloudu byste měli vidět nově přidanou tiskárnu. Kliknutím přejděte na detail tiskárny. Pokud je Pill online (je zapnutý a připojený k internetu), tak uvidíte obraz z kamery. Vedle obrazu z kamery bude tlačítko "Připojit", na které klikněte, čímž dojde k navázání datové komunikace mezi Pillem a tiskárnou.
 
 <borderedImage>![Karmn Cloud - připojení k tiskárně](_media/cloud-connect-printer.png ":size=800x300")</borderedImage>
 

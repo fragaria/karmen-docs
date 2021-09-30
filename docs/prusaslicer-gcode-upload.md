@@ -5,6 +5,8 @@ Pokud používáte ke slicování [PrusaSlicer](https://www.prusa3d.com/prusasli
 
 !> Tento návod je vytvořen pro PrusaSlicer ve verzi [2.3.3](https://github.com/prusa3d/PrusaSlicer/releases/tag/version_2.3.3). Pokud máte jinou verzi, některé kroky mohou být odlišné.
 
+> Tip: Karmen umí komunikovat i s dalšími slicery (Cura...). Nastavení je obdobné jako níže - pokud by se Vám to nedařilo, ozvěte se nám.
+
 ## Adresa Octoprint serveru
 
 Aby mohl PrusaSlicer nahrávat soubory přímo do Karmen, budeme v dalších částech návodu potřebovat adresu serveru. Adresu serveru si zobrazíte v nastavení Vašeho účtu.
