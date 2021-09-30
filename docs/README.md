@@ -6,7 +6,8 @@ Na této stránce naleznete dokumentaci ke Karmen v českém jazyce.
 
 - [Karmen Pill - začínáme](karmen-pill-zaciname.md)
 - [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
-- [Připojení Pillu k počítači s operačním systémem Windows](windows.md)
+- [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
+- [Držáky na Pill](drzaky-na-pill.md)
 
 
 ## Nenalezli jste odpověď na svůj dotaz? {docsify-ignore}
