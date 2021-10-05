@@ -1,3 +1,9 @@
 ## Často kladené otázky
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et dictum ante. Mauris eget luctus leo. Sed a purus at nulla elementum iaculis vitae vitae quam.
+---
+
+?> **Mohu si do Octoprintu v Pillu doinstalovat další pluginy?**
+
+Ne, v tuto chvíli to není možné. Resp. nedokážeme zaručit, že se přidáním pluginu něco "nerozbije". Pokud přesto zkusíte nějaké pluginy přidat a něco se pokazí, můžete vždy uvést Pill do továrního nastavení a začít znovu.
+
+---
