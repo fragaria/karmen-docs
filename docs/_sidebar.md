@@ -12,6 +12,7 @@
 * Návody
 
   * [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
+  * [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
   * [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
 
 * [Kontakt](/)
