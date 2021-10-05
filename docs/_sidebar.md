@@ -7,6 +7,8 @@
   * [Karmen Pill - začínáme](karmen-pill-zaciname.md)
   * [Držáky na Pill](drzaky-na-pill.md)
 
+* [FAQ](faq.md)
+
 * Návody
 
   * [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
