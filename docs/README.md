@@ -6,6 +6,7 @@ Na této stránce najdete informace a návody jak připojit a nastavit Karmen Pi
 
 - [Zapojení Karmen Pill](karmen-pill-zaciname.md)
 - [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
+- [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
 - [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
 - [Držáky na Pill](drzaky-na-pill.md)
 
