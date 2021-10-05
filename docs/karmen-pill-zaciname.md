@@ -15,7 +15,7 @@
 
 Připojte Karmen Pill **(A)** k Vašemu počítači pomocí USB kabelu **(B)**. V tuto chvíli není potřeba, aby byl do Pillu připojen napájecí adaptér - napájení zajistí USB z počítače.
 
-!> Pozor, pokud využijete vlastní kabel, dbejte na to, aby umužňoval přenášet data a nebyl pouze nabíjecí.
+!> Pozor, pokud využijete vlastní kabel, dbejte na to, aby umožňoval přenášet data a nebyl pouze nabíjecí.
 
 Pill začne po připojení k počítači modře blikat (cca 30 vteřin po připojení). V tuto chvíli otevřete v internetovém prohlížeči adresu http://169.254.13.1/.
 
