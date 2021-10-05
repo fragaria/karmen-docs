@@ -1,4 +1,4 @@
-## Připojení vlastního Octoprintu do Karmen Cloudu
+# Připojení vlastního Octoprintu do Karmen Cloudu
 
 Pokud máte vlastní zařízení s Octoprintem, můžete ho připojit do Karmen Cloudu stejným způsobem, jako naše zařízení Karmen Pill.
 

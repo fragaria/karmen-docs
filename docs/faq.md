@@ -1,4 +1,4 @@
-## Často kladené otázky
+# Často kladené otázky
 
 ---
 
