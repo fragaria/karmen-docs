@@ -37,8 +37,8 @@ V záložce "Printer Settings" klikněte na ikonku nastavení tiskárny:
 V okně s nastavením tiskárny pak zadejte:
 
 - Host Type: ```OctoPrint ```
-- Hostname: ```viz "Octoprint Upload Url" v návodu výše```
-- API Key: ```klíč, který jste si vytvořili v jednom z předchozích kroků```
+- Hostname: ```viz "Octoprint Upload Url" v návodu výše ``` - [Adresa Octoprint Serveru](prusaslicer-gcode-upload?id=adresa-octoprint-serveru)
+- API Key: ```klíč, který jste si vytvořili v jednom z předchozích kroků``` - [Vytvoření API klíče](prusaslicer-gcode-upload?id=vytvoření-api-klíče)
 
 <borderedImage>![Prusaslicer Print Host Upload Settings 2](_media/prusaslicer-print-host-upload-settings-2.png ":size=600x295")</borderedImage>
 
