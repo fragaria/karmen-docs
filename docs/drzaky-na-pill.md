@@ -9,3 +9,5 @@ Pokud si budete na Pill chtít pořídit držák, mrkněte do knihovny, kterou v
 - https://www.thingiverse.com/thing:4342073
 
 ?> Pokud Vám žádný držák nevyhovoval a vyrobili jste si svůj vlastní, budeme rádi, pokud je nasdílíte i pro ostatní. Je to jednoduché, držák nahrajete na https://thingiverse.com a dejte nám vědět - přidáme odkaz sem do dokumentace a přidáme ho do [naší kolekce na Thingiverse](https://www.thingiverse.com/karmentech/collections/karmen-pill-holders).
+
+...
