@@ -25,6 +25,20 @@ Karmen Pill je hotové řešení pro školy, firmy i jednotlivce, pokud nechcete
 
 ---
 
+?> **V čem je Karmen bezpečnější než Octoprint?**
+
+Hlavní rozdíl mezi bezpecnosti Octoprintu a Karmen je ten, že v případě Karmen dochází k navázání spojení z Pillu na server (Pill není reálně přístupný z internetu). 
+V případě standardního Octoprintu dochází k přímému připojení na Octoprint. 
+
+---
+
+?> **Je bezpečne používat Cloudové služby?**
+
+Ano, používání cloudových služeb určitě není pro každého. Snažíme se data našich uživatelů maximálně zabezpečit a samozřejmě je s nikým dalším nesdílíme. 
+Zároveň je Karmen publikována jako opensource, takže pokud ji budete chtít používat, můžete si ji nainstalovat i na svůj počítač nebo server a dle potřeby si vše zabezpečit.
+
+---
+
 ?> **Můžu použít jeden Pill na více tiskáren?**
 
 Teoreticky můžete, ale samozřejmě nikoliv v jednu chvíli. Pill potřebuje fyzické spojení s tiskárnou a sledovat může v každou chvíli také jen jednu tiskárnu. Můžete ho mezi tiskárnami střídat nebo si pořídit pro každou tiskránu jeden Pill.
@@ -46,6 +60,12 @@ Pill lze zatím připojit jen přes 2,4 GHz Wifi. Ethernet zatím nenabízí, al
 ?> **Proč je Karmen Cloud zdarma?**
 
 Karmen jsme vytvořili jako svého druhu “firemní hobby” a bereme jí také jako způsob, jak prostřednictvím open source software přispět komunitě kolem 3D tisku. Jako firmu nás živí jiné věci a nikdy nebylo naším hlavním cílem na Karmen vydělávat.
+
+---
+
+?> **Jaké je rozlišení kamery?**
+
+Rozlišení kamery Pillu je HD.
 
 ---
 
