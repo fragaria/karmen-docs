@@ -19,7 +19,10 @@ Připojte Karmen Pill **(A)** k Vašemu počítači pomocí USB kabelu **(B)**. 
 
 Pill začne po připojení k počítači modře blikat (cca 30 vteřin po připojení). V tuto chvíli otevřete v internetovém prohlížeči adresu http://169.254.13.1/.
 
-!> Microsoft Windows: Stránka http://169.254.13.1/ se Vám stále nenačítá? Nejspíš budete muset dočasně [vypnout firewall](firewall.md).
+!> <u>Upozornění pro uživatele **Microsoft Windows**:</u><br>
+Pokud se Vám stále nenačítá stránka http://169.254.13.1/, tak:<br>
+&#8211; nejspíš budete muset dočasně [vypnout firewall](firewall.md)<br>
+&#8211; do Windows [doinstalovat USB ovladač](windows.md)
 
 V konfiguračním průvodci zvolte "nastavení wifi", kde vyplňte údaje o Vašem wifi připojení. Po uložení se Vám zobrazí kód zařízení, který si zkopírujte - budete jej potřebovat pro přidání tiskárny.
 
