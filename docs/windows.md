@@ -12,6 +12,8 @@ Potom přejděte na URL pro [stažení ovladače](https://www.catalog.update.mic
 
 Zobrazí se stránka pro stažení ovladače. Ovladač stáhněte a dobře si zapamatujte místo, kam jej ukládáte.
 
+!> Někteří uživatelé mají problém, že se jim nedaří stáhnout ovladač ze serverů Microsoft. Z tohoto důvodu nabízíme možnost [stažení ovladače od nás](_media/usb-windows-driver-20342322_4b9970e3174b23b5cb2371af0837f939a71271ea.cab ':ignore').
+
 <borderedImage>![Copy API token](_media/dowload-driver-3.png ":size=600x295")</borderedImage>
 
 ## Instalace ovladače
