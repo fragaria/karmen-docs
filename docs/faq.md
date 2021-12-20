@@ -27,14 +27,14 @@ Karmen Pill je hotové řešení pro školy, firmy i jednotlivce, pokud nechcete
 
 ?> **V čem je Karmen bezpečnější než Octoprint?**
 
-Hlavní rozdíl mezi bezpecnosti Octoprintu a Karmen je ten, že v případě Karmen dochází k navázání spojení z Pillu na server (Pill není reálně přístupný z internetu). 
-V případě standardního Octoprintu dochází k přímému připojení na Octoprint. 
+Hlavní rozdíl mezi bezpecnosti Octoprintu a Karmen je ten, že v případě Karmen dochází k navázání spojení z Pillu na server (Pill není reálně přístupný z internetu).
+V případě standardního Octoprintu dochází k přímému připojení na Octoprint.
 
 ---
 
 ?> **Je bezpečne používat Cloudové služby?**
 
-Ano, používání cloudových služeb určitě není pro každého. Snažíme se data našich uživatelů maximálně zabezpečit a samozřejmě je s nikým dalším nesdílíme. 
+Ano, používání cloudových služeb určitě není pro každého. Snažíme se data našich uživatelů maximálně zabezpečit a samozřejmě je s nikým dalším nesdílíme.
 Zároveň je Karmen publikována jako opensource, takže pokud ji budete chtít používat, můžete si ji nainstalovat i na svůj počítač nebo server a dle potřeby si vše zabezpečit.
 
 ---
@@ -83,7 +83,7 @@ Kompletní návod jak postupovat naleznete v kapitole Základy: https://docs.kar
 
 ?> **Chcete posílat G-cody do Karmen rovnou ze Sliceru?**
 
-Postupujte podle návodu https://docs.karmen.tech/#/cs/prusaslicer-gcode-upload 
+Postupujte podle návodu https://docs.karmen.tech/#/cs/prusaslicer-gcode-upload
 
 ---
 
@@ -95,6 +95,12 @@ Pravděpodobně jste Pill připojili k počítači s Windows 10, potom bude pot�
 
 ?> **Nevidíte Porty (COM a LPT) při stahování chybějícího ovladače na WIN 10**
 
-Zkontrolujte, jestli je váš Pill připojený k počítači. Pokud ano, Pill modře bliká a PORTY (COM A LPT) nevidíte, zkontrolujte, jakým kabelem Pill připojujete – kabel musí být schopen přenášet data, ne pouze nabíjet. Ideálně použijte přiložené kabely, které jste dostali spolu s Karmen Pill. 
+Zkontrolujte, jestli je váš Pill připojený k počítači. Pokud ano, Pill modře bliká a PORTY (COM A LPT) nevidíte, zkontrolujte, jakým kabelem Pill připojujete – kabel musí být schopen přenášet data, ne pouze nabíjet. Ideálně použijte přiložené kabely, které jste dostali spolu s Karmen Pill.
+
+---
+
+?> **Podporuje Karmen Prusa MMU?**
+
+Ne, v tuto chvíli Karmen MMU nepodporuje. V případě tisku z Karmen na Prusa MMU tiskárně, je nutné zvolit výběr filamentu fyzicky na tiskárně.
 
 ---
