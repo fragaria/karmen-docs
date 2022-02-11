@@ -4,18 +4,19 @@ Na této stránce najdete informace a návody jak připojit a nastavit Karmen Pi
 
 ## Karmen nyní s jistotou funguje na těchto tiskárnách
 
-Ačkoliv je Karmen stavěna ke kompatibilitě se všemi tiskárnami, kde je možné rozchodit Octoprint, na některých není našimi klienty otestovaná. 
-Nabízíme tedy možnost 50% slevy těm klinetům, kteří nám pomohou Karmen otestovat na tiskárnách, které nejsou v seznamu níže. 
+Ačkoliv je Karmen stavěna ke kompatibilitě se všemi tiskárnami, kde je možné rozchodit Octoprint, na některých není našimi klienty otestovaná.
+Nabízíme tedy možnost 50% slevy těm klinetům, kteří nám pomohou Karmen otestovat na tiskárnách, které nejsou v seznamu níže.
 
 - Ender 3,5,6,7
-- Prusa Mini 
+- Prusa Mini
 - Prusa MK2, S, 2.5, S, MK3, S, +
 - Artillery Genius
 - Anet A8
 - Kryal Cube
 - FLSun Speed Racer
+- Snapmaker A350
 
-Karmen momentálně nepodporuje funkci MMU. 
+Karmen momentálně nepodporuje funkci MMU.
 
 ## Návody {docsify-ignore}
 
