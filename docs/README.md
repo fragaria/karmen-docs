@@ -22,6 +22,7 @@ Karmen momentálně nepodporuje funkci MMU.
 
 - [Zapojení Karmen Pill](karmen-pill-zaciname.md)
 - [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
+- [Konfigurace Karmen Pillu (Octoprintu) pro podporu MMU na Prusa tiskárnách](konfigurace-pill-podpora-mmu.md)
 - [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
 - [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
 - [Držáky na Pill](drzaky-na-pill.md)

@@ -1,4 +1,4 @@
-# Konfigurace Karmen Pillu (Octoprintu) pro podporu MMU na Prusa MK(*) tiskárnách
+# Konfigurace Karmen Pillu (Octoprintu) pro podporu MMU na Prusa tiskárnách
 
 Pokud máte u své Prusa MK* tiskárny rozšíření MMU (multimateriál) a zkoušíte tisknout přes Karmen, pravděpodobně jste se dostali do stavu,
 že tiskárna tiskne, ale nemění materiál. Aby k výměně materiálu během tisku došlo, je potřeba provést úpravu v nastavení Octoprintu, který je nainstalován na Pillu. V následujících několika krocích si ukážeme, jak na to.
