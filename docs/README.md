@@ -16,8 +16,6 @@ Nabízíme tedy možnost 50% slevy těm klinetům, kteří nám pomohou Karmen o
 - FLSun Speed Racer
 - Snapmaker A350
 
-Karmen momentálně nepodporuje funkci MMU.
-
 ## Návody {docsify-ignore}
 
 - [Zapojení Karmen Pill](karmen-pill-zaciname.md)
