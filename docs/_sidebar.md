@@ -16,5 +16,6 @@
   * [Podpora pro Prusa MMU/multimateriál](konfigurace-pill-podpora-mmu.md)
   * [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
   * [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
+  * [Jak sestavit Karmen Pill](sestaveni-karmen-pill.md)
 
 * [Kontakt](/)
