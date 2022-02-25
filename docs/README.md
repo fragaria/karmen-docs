@@ -24,7 +24,7 @@ Nabízíme tedy možnost 50% slevy těm klinetům, kteří nám pomohou Karmen o
 - [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
 - [Instalace ovladače Pillu pro systémem Microsoft Windows](windows.md)
 - [Držáky na Pill](drzaky-na-pill.md)
-
+- [Jak si sestavit vlastní Karmen Pill](sestaveni-karmen-pill.md)
 
 ## Nenalezli jste odpověď na svůj dotaz? {docsify-ignore}
 
