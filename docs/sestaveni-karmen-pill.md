@@ -28,12 +28,13 @@ Gratulujeme k tomu, že jste se rozhodli postavit vlastní Karmen Pill! Na dalš
 ## Potřebné vybavení
 
 - Pájka (nejlépe mikropájka s úzkým hrotem)
+- Cínová pájka (cín)
 - Pomocné držáky pro pájení (třetí ruka)
 - Imbus velikost 1.3 mm
 
 ## Lisování závitových vložek
 
-Součástí stavebnice jsou závitové vložky, takže vše je možné opakovaně složit a rozebrat.
+Součástí stavebnice jsou závitové vložky, takže Pill je možné opakovaně složit i rozebrat.
 
 ### Pozice závitových vložek
 
@@ -43,34 +44,36 @@ Součástí stavebnice jsou závitové vložky, takže vše je možné opakovan�
 
 ### Způsob lisování
 
-Nejlepší způsob jak nalisovat závitové vložky je za pomoci pájky. Nahřejte pájku zhruba na 250°C a opatrně umístěte závitovou vložku na její hrot. Tím se vložka rychle zahřeje a vy budete schopni nalisovat vložky bez rizika popraskání plastových dílů.
+Nejlepší způsob jak vlisovat závitové vložky je za pomoci pájky. Nahřejte pájku zhruba na 250°C a opatrně umístěte závitovou vložku na její hrot. Tím se vložka rychle zahřeje a vy budete schopni nalisovat vložky bez rizika popraskání plastových dílů.
 
-!> Při lisování musí být pájka v jedné ose se závitovou vložkou a otvorem, do kterého je vložka lisována (jinými slovy kolmo na dno krabičky) - jedině tak nedojde ke kontaktu pájky s lemem krabičky a tím k jeho natavení na zahřátou pájku. Nesousosost by také vedla k vyvalení materiálu z prostoru kolem vložky, případně ke znemožněnému sešroubování.
+!> Při lisování musí být pájka v jedné ose se závitovou vložkou a otvorem, do kterého je vložka lisována (jinými slovy kolmo na dno krabičky).
 
 <borderedImage>![](_media/karmen-pill-assembly/inserts-pressing.jpg ":size=500")</borderedImage>
 
 !> Každá závitová vložka musí být zalisována po celé délce tak, aby nevyčnívala.
 
-## Pájení kontaktů
+## Pájení
 
-Karmen potřebuje propojit LEDky a konektor se základní deskou - není to nic složitého, stačí Vám trocha trpělivosti.
+Karmen Pill má LEDku a napájecí konektor pevně spojen se základní deskou.
 
-!> Pro správnou funkci se držte schéma zapojení LED a konektoru se základní deskou. Dodržujte barevné uspořádání přiložených vodičů znázorněné na následujících obrázcích.
+!> Dodržte barevné uspořádání vodičů, jak je znázorněno na obrázcích.
 
 ### Zapojení LED
 
-Na obrázku níže je zvýrazněna šipka, která ukazuje směr zapojení vodičů, resp. otočení LEDky. Dejte pozor, abyste připojili vodiče na správnou stranu LED.
-Doporučujeme při zapojení dodržet barvy vodičů dle obrázku, další části návodu s tímto rozložením počítají.
+Na obrázku níže je zvýrazněna šipka, která ukazuje směr zapojení vodičů, resp. otočení LEDky. Dejte pozor, abyste připojili vodiče na LED ze správné strany.
 
 <borderedImage>![](_media/karmen-pill-assembly/led-connection.png ":size=300")</borderedImage>
 
 ### Zapojení napájecího konektoru
 
-Konektor má 3 vidlice, z toho budou potřeba pouze 2 - prostřední pro připojení černého vodiče a levá pro připojení červeného vodiče (levá strana platí pro prostřední vidlici v dolní poloze).
+Konektor má 3 vidlice, z toho budou potřeba pouze 2 - prostřední pro připojení černého vodiče a pravá pro připojení červeného vodiče.
+
+!> Dejte pozor na správné zapojení. V případě prohození +/- může dojít ke zničení Raspberry. Pokud byste si nebyli jisti, zda máte vše zapojeno správně,
+tak použijte k ověření multimetr.
 
 <borderedImage>![](_media/karmen-pill-assembly/power-connector-connection.png ":size=150")</borderedImage>
 
-### Zapojení vodičů na základní desce
+### Zapojení vodičů k základní desce
 
 Pro vodiče napájecího konektoru slouží testovací pady na spodní straně Raspberry. Mezi "Raspberry Zero W" a "Raspberry Zero 2" je drobný rozdíl v umístění padů, což je vidět na obrázku níže - zbytek zapojení je stejný.
 
@@ -107,11 +110,13 @@ Pomocí tří šroubů a čtvercových matic, přišroubujte kameru do víčka k
 
 !> Ujistěte se, že SD karta není vložena do základní desky, v opačném případě by při sestavování mohlo dojít k jejímu poškození!
 
+!> Při vkládání Raspberry buďte opatrní a dávejte pozor na konektor ke kameře na Raspberry - konektor se při chybné manipulaci může vylomit.
+
 Nyní je čas vložit do krabičky samotné Raspberry. Postupujte tak, že nejprve zasuňte do krabičky tu část, kde je otvor pro SD kartu. Při vkládání je potřeba krabičku po stranách trochu prohnout směrem ven, aby tam Raspberry prošlo.
 
 Když vše dobře sedí, tak zasuňte do pozice napájecí konektor.
 
-Při vkládání Raspberry buďte opatrní a dávejte pozor na kamerový kabel a vodiče od napájecího konektoru, aby nebránili "zapadnutí" Raspberry až dolu.
+Při vkládání Raspberry buďte opatrní a dávejte pozor na kamerový kabel a vodiče od napájecího konektoru, aby nebránili správnému "zapadnutí" Raspberry až do spodní části krabičky.
 
 <borderedImage>![](_media/karmen-pill-assembly/pre-final-assembly.png ":size=600")</borderedImage>
 
@@ -131,5 +136,6 @@ Jako úplně poslední krok vložte SD kartu a schovejte jí pod krytku.
 ---
 
 ## TODO:
-- instalace SD karty
-- přidání Karmen Pillu do Karmen Cloudu
+- přidat odkaz na stažení STL pro tisk komponent krabičky
+- instalace systému na SD kartu
+- návod na přidání Pillu do Karmen Cloudu
