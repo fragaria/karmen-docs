@@ -4,14 +4,14 @@ Na této stránce najdete informace a návody jak připojit a nastavit Karmen Pi
 
 ## Karmen nyní s jistotou funguje na těchto tiskárnách
 
-Ačkoliv je Karmen stavěna ke kompatibilitě se všemi tiskárnami, kde je možné rozchodit Octoprint, na některých není našimi klienty otestovaná.
-Nabízíme tedy možnost 50% slevy těm klinetům, kteří nám pomohou Karmen otestovat na tiskárnách, které nejsou v seznamu níže.
+Karmen je kompatibilní s tiskárnami, které komunikují s Octoprintem. Na tiskárnách uvedných níže jí již otestovali naši uživatelé a běžně Karmen používají.
+Pokud máte jinou tiskárnu, tak se nám prosím ozvěte a případně Vám zašleme Karmen Pill na vyzkoušení.
 
 - Ender 3,5,6,7
 - Prusa Mini
 - Prusa MK2, S, 2.5, S, MK3, S, +
 - Artillery Genius
-- Anet A8
+- Anet A8, PLUS
 - Kryal Cube
 - FLSun Speed Racer
 - Snapmaker A350
