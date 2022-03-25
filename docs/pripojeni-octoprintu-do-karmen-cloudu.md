@@ -4,9 +4,10 @@ Pokud máte vlastní zařízení s Octoprintem, můžete ho do Karmen Cloudu př
 
 Níže je uveden návod, jakým způsobem nainstalovat Octoprint a další potřebné knihovny k tomu, aby vaše vlastní zařízení komunikovalo s [Karmen Cloudem](https://next.karmen.tech/).
 
-!> Tento návod je ve stavu "work in progress", což znamená, že ještě není zcela dokončen. Nicméně, uvedený postup je funkční a zkušenější uživatelé by měli být schopni dle tohoto návodu postupovat.
+!> Tento návod je ve stavu "work in progress", což znamená, že ještě není zcela dokončen.  
+Nicméně, uvedený postup je funkční a zkušenější uživatelé by měli být schopni dle tohoto návodu postupovat.
 
-## Přepoklad
+## Předpoklad
 
 Tento návod předpokládá, že:
 
@@ -17,11 +18,13 @@ a nějakým způsobem nakonfigurovaný, nemusí být uvedený postup funkční.
 
 ## Instalace Octoprintu
 
-Začněte tím, že na své zařízení (Raspberry Zero W, Zero 2 W, 3, 4) nainstalujte aktuální verzi Octoprintu, jak je uvedeno na stránce: https://octoprint.org/download/
+Začněte tím, že na své zařízení (Raspberry Zero W, Zero 2 W, 3, 4) nainstalujte aktuální verzi Octoprintu.  
+Postup sepsaný tvůrci Octoprintu naleznete na stránce: https://octoprint.org/download/
 
 ## Nastavení Wifi
 
-Při instalaci Octoprintu nastavte WIFI, aby bylo možné se na zařízení připojit přes SSH. Jak nastavit Wifi je popsáno v návodu instalace Octoprintu: https://octoprint.org/download/.
+Při instalaci Octoprintu nastavte WIFI, aby bylo možné se na zařízení připojit přes SSH.  
+Jak nastavit Wifi je popsáno v návodu instalace Octoprintu: https://octoprint.org/download/.
 
 ## Připojte se na zařízení přes SSH
 
@@ -29,8 +32,7 @@ Spusťte zařízení a připojte se na něj přes SSH - jak nastavit SSH je opě
 
 ## Instalace potřebných komponent na zařízení
 
-Nyní byste měli být přihlášeni na zařízení přes SSH. Připravili jsme instalační skript, který nainstaluje vše potřebné. Přdedpokládáme, že všechny níže uvedené příkazy
-budete spouštět přímo v terminálu (SSH) na zařízení.
+Nyní byste měli být přihlášeni na zařízení přes SSH. Připravili jsme instalační skript, který nainstaluje vše potřebné. Předpokládáme, že všechny níže uvedené příkazy budete spouštět přímo v terminálu (SSH) na zařízení.
 
 #### Stažení instalačního skriptu
 
@@ -38,7 +40,8 @@ budete spouštět přímo v terminálu (SSH) na zařízení.
 
 #### Spuštění instalačního skriptu
 
-?> Pokud by Vás zajímalo, co je přesně součástí instalace, koukněte se na Github: https://github.com/fragaria/karmen-gists/blob/main/karmen-pill-init.script
+?> Pokud by Vás zajímalo, co je přesně součástí instalace, koukněte se na Github:  
+https://github.com/fragaria/karmen-gists/blob/main/karmen-pill-init.script
 
 Během instalace budou provedeny tyto operace:
 
@@ -53,25 +56,37 @@ Pro spuštění instalace, spusťte na zařízení následující příkaz:
 
 `sudo bash ./karmen-pill-init.script`
 
-Během instalace budete vyzváni k zadání "Karmen klíče (Your Karmen key:)". Tento klíč je unikátní textový řetězec, který slouží k identifikaci zařízení a provázání s Vaším Karmen Cloud účtem. Klíč získáte po přihlášení do Karmen Cloudu na stránce nastavení: https://next.karmen.tech/settings/account - hledejte tlačítko "Create new Device Key" - po kliknutí na toto tlačítko se Vám zobrazí klíč, který zkopírujte a po vyzvání zadejte do SSH terminálu.
+Během instalace budete vyzváni k zadání "`Karmen klíče` (`Your Karmen key:`)".  
+Tento klíč je unikátní textový řetězec, který slouží k identifikaci zařízení a provázání s Vaším Karmen Cloud účtem.  
+Klíč získáte po přihlášení do Karmen Cloudu na stránce nastavení: https://next.karmen.tech/settings/account   
+Zde hledejte tlačítko "**Create new Device Key**"
+![Octoprint](_media/own-octopi-connect-to-karmen/cloud-new-device-key1.png ":size=1024")
 
-!> Karmen Key s nikým nesdílejte. Je to unikátní kód, kterým se zařízení identifikuje na serveru.
+Po kliknutí na toto tlačítko se Vám zobrazí klíč, který zkopírujte a po vyzvání zadejte do SSH terminálu.
+![Octoprint](_media/own-octopi-connect-to-karmen/cloud-new-device-key2.png ":size=1024")
+
+!> **Karmen Key s nikým nesdílejte**. Je to unikátní kód, kterým se zařízení identifikuje na serveru.
 
 ### Přidání zařízení do Karmen
 
-Pokud se Vám úšpěšně podařilo spustit instalační skript, tak by mělo být zařízení připravené k přidání do Karmen Cloudu. Pro přidání budete potřebovat dva klíče, které byly během instalace uloženy na SD kartu zařízení do souboru `/boot/KARMEN_KEYS.TXT`. Obsah tohoto souboru si můžete zobrazit přes SSH terminál příkazem `cat /boot/KARMEN_KEYS.TXT` nebo zařízení vypněte, vyndejte z něj SD kartu a obsah souboru `KARMEN_KEYS.TXT` přečtěte v počítači.
+Pokud se Vám úspěšně podařilo spustit instalační skript, tak by mělo být zařízení připravené k přidání do Karmen Cloudu. Pro přidání budete potřebovat dva klíče, které byly během instalace uloženy na SD kartu zařízení do souboru `/boot/KARMEN_KEYS.TXT`. Obsah tohoto souboru si můžete zobrazit přes SSH terminál příkazem `cat /boot/KARMEN_KEYS.TXT` nebo zařízení vypněte, vyndejte z něj SD kartu a obsah souboru `KARMEN_KEYS.TXT` přečtěte v počítači.
 
-Nové zařízení do Karmen Cloudu přidáte po přihlášení na této stránce: https://next.karmen.tech/settings/printers. Klikněte na tlačítko "Add Printer". Zobrazí se Vám formulář, do kterého vyplňte:
+Nové zařízení do Karmen Cloudu přidáte po přihlášení na této stránce: https://next.karmen.tech/settings/printers.  
+Klikněte na tlačítko "**Add Printer**". Zobrazí se Vám formulář, do kterého vyplňte:
 
-`Printer name`: zadejte "libovolný" název pro tiskárnu, například "moje tiskárna :-)"
-`Code from the Pill configuration wizard`: zkopírujte hodnotu `DEVICE KEY` z `KARMEN_KEYS.TXT`
-`Octoprint API Key`: zkopírujte hodnotu `OCTOPRINT API KEY` z `KARMEN_KEYS.TXT`
+`Printer name`: zadejte "libovolný" název pro tiskárnu, například "moje tiskárna :-)"  
+`Code from the Pill configuration wizard`: zkopírujte hodnotu `DEVICE KEY` z `KARMEN_KEYS.TXT`  
+`Octoprint API Key`: zkopírujte hodnotu `OCTOPRINT API KEY` z `KARMEN_KEYS.TXT`  
 
-Po vyplnění hodnot klikněte na "Save". Nyní se ujistěte, že je zařízení s Octoprintem zapnuté a v Karmen Cloudu přejděte na seznam Vašich tiskáren a vyčkejte, než se spustí Octoprint a připojí ke Karmen Cloudu.
+![Octoprint](_media/own-octopi-connect-to-karmen/cloud-new-printer.png ":size=1024")
+
+Po vyplnění hodnot klikněte na "**Save**". Nyní se ujistěte, že je zařízení s Octoprintem zapnuté a v Karmen Cloudu přejděte na seznam Vašich tiskáren a vyčkejte, než se spustí Octoprint a připojí ke Karmen Cloudu.
 
 ## Přístupové údaje
 
-Uvedený instalační skript nastaví automaticky zabezpečení do Octoprintu. Pokud byste se na Octoprint připojovali v lokální síti přes webový prohlížeč, tak výchozí jméno uživatele je `karmen` a heslo `karmen`. Doporučujeme si toto výchozí heslo změnit, zejména pokud je Vaše zařízení připojeno do veřejné Wifi sítě.
+Uvedený instalační skript nastaví automaticky zabezpečení do Octoprintu. Pokud byste se na Octoprint připojovali v lokální síti přes webový prohlížeč, tak výchozí jméno uživatele je `karmen` a heslo `karmen`.
+
+?> Doporučujeme si toto výchozí heslo změnit, zejména pokud je Vaše zařízení připojeno do veřejné Wifi sítě.
 
 # Konec
 
