@@ -2,16 +2,17 @@
 
 * [Úvod](/)
 
-* Základy
+* [Karmen Pill](karmen-pill-obsah-baleni.md)
 
-  * [Karmen Pill - začínáme](karmen-pill-zaciname.md)
-  * [Držáky na Pill](drzaky-na-pill.md)
+* [Naše tiskové modely](tiskove-modely.md)
 
 * [FAQ](faq.md)
 
 * Návody
 
   <!-- * [Jak si sestavit vlastní Karmen](jak-se-sestavit-vlastni-karmen.md) -->
+  * [Karmen Pill - nastavení](karmen-pill-nastaveni.md)
+  * [Karmen Pill v2 a XL - nastavení](karmen-pill-v2-pill-xl-nastaveni.md)
   * [Nastavení PrusaSliceru s Karmen](prusaslicer-gcode-upload.md)
   * [Podpora pro Prusa MMU/multimateriál](konfigurace-pill-podpora-mmu.md)
   * [Připojení vlastního Octoprintu do Karmen Cloudu](pripojeni-octoprintu-do-karmen-cloudu.md)
