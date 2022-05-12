@@ -1,4 +1,6 @@
-# Karmen Pill - obsah balení
+# Karmen Pill
+
+## Obsah balení
 
 - **A**: Krabička Karmen Pill
 - **B**: Propojovací USB kabel pro připojení Karmen Pill s počítačem a úvodní nastavení wifi
