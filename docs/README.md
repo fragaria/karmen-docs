@@ -4,7 +4,7 @@ On this page you will find information and instructions on how to connect and se
 
 ## Karmen compatibility
 
-Karmen is compatible with all printers that works with Octoprint.
+Karmen is compatible with all 3D printers that works with Octoprint.
 
 ## Documentation {docsify-ignore}
 
@@ -16,6 +16,6 @@ Karmen is compatible with all printers that works with Octoprint.
 Contact us using one of the options below:
 
 - Email: karmen@karmen.tech
-- Web: https://karmen.tech/
+- Web: https://karmen.tech/ *(sorry, Czech version only for now)*
 - [Facebook](https://www.facebook.com/karmen3D/)
 - [Twitter](https://twitter.com/karmen3d)
