@@ -1,3 +1,3 @@
-# Octoprint plugin
+# Karmen Connector - Octoprint Plugin
 
-Tato stránka se připravuje, děkujeme za pochopení
+This page is under construction, thank you for your understanding. Complete "howto" will be ready in few days.
