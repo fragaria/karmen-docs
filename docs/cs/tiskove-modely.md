@@ -1,14 +1,10 @@
 # Naše tiskové modely
 
-## Držáky na Pill
+naše modely můžete naleznout na největších portálech s modely jako je Thingiverse či Printables.
+- [Karmen modely na Thingiverse](https://www.thingiverse.com/karmentech/designs)
+- [Karmen modely na Printables](https://www.printables.com/cs/social/263340-karmen3d/models)
 
-Pokud si budete na Pill chtít pořídit držák, mrkněte do knihovny, kterou vyrobili naši klienti.
 
-- https://www.thingiverse.com/thing:4764591
-- https://www.thingiverse.com/thing:4267454
-- https://www.thingiverse.com/thing:4741938
-- https://www.thingiverse.com/thing:4361559
-- https://www.thingiverse.com/thing:4342073
-- https://www.prusaprinters.org/cs/prints/132422-karmen-pill-holder
+?> Pokud si navrhnete nebo upravíte jakýkoliv model dle sebe, budeme rádi, pokud je nasdílíte i pro ostatní. Je to jednoduché, model nahrajete na https://thingiverse.com nebo https://printables.com. Dejte nám o tom vědět a my ho zařadíme do kolekcí na našich profilech jako např.:  
+[ kolekce držáků PILLs na Thingiverse](https://www.thingiverse.com/karmentech/collections/karmen-pill-holders).
 
-?> Pokud Vám žádný držák nevyhovoval a vyrobili jste si svůj vlastní, budeme rádi, pokud je nasdílíte i pro ostatní. Je to jednoduché, držák nahrajete na https://thingiverse.com a dejte nám vědět - přidáme odkaz sem do dokumentace a přidáme ho do [naší kolekce na Thingiverse](https://www.thingiverse.com/karmentech/collections/karmen-pill-holders).
