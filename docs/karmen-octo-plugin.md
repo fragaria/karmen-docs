@@ -15,18 +15,6 @@ Search Karmen Connector plugin and instal
 
 !> Now you would be asked for rebooting your device to apply changes. Let's do it!
 
-### Creating Karmen device key
-Go to Setting => Account look for button "**Create new Device Key**"
-![Octoprint](_media/own-octopi-connect-to-karmen/cloud-new-device-key1.png ":size=1024")
-
-After pressing button you will get an unique device key.  
-Highly recommend to keep this window open. Key will be used at **plugin & adding new printer**.
-![Octoprint](_media/own-octopi-connect-to-karmen/cloud-new-device-key2.png ":size=1024")
-
-## Fill key to plugin
-Go to Settings => Karmen Connector plugin, fill `Device key` and save settings.
-![Octoprint](_media/octo-plugin/octo-plugin-setup.png ":size=1024")
-
 ### Creating Octoprint secondary API key
 !> We don't recommend using Octoprint master API key. Please for Karmen Connertor create separate API key.
 
@@ -37,14 +25,27 @@ We chose `karmenCLOUD` to easy find his purpouse in future.
 ![Octoprint](_media/octo-plugin/octo-secondary-api-key.png ":size=1024")
 
 ### Adding printer to your Karmen workspace
-Open Setting => Printers => Add Printer button.  
+Go to [next.karmen.tech](https://next.karmen.tech) and assign to your account.
+Click on **Add printer**.  
+In case you already have atleast one printer at workspace open `Setting` => `Printers` => **Add Printer button**.  
+![Octoprint](_media/octo-plugin/en/en-new-workspace.png":size=1024")
+
+#### Octoprint device option  
+![Octoprint](_media/octo-plugin/en/en-octo-new-printer.png ":size=1024")
+
+#### Printer info
 Now fill information like example below.  
-
 `Printer name` is your name of printer  
-`Octoprint API Key` is secondary API we generated in Octoprint  
-`Device key` is key generated to fill into plugin  
-![Octoprint](_media/octo-plugin/en/en-cloud-new-printer.png ":size=1024")
+`Octoprint API Key` is secondary API we generated in Octoprint
+![Octoprint](_media/octo-plugin/en/en-octo-new-octoprint.png ":size=1024")
 
+After pressing button you will get an unique device key.
+This key would be used at `Karmen Connector` plugin settings.
+![Octoprint](_media/octo-plugin/en/en-octo-device-key.png ":size=1024")
+
+### Fill key to plugin
+Go to Settings => Karmen Connector plugin, fill `Device key` and save settings.
+![Octoprint](_media/octo-plugin/octo-plugin-setup.png ":size=1024")
 
 # Contacts & support
 We’ll gladly answer all your questions or comments. Please get in touch at karmen@karmen.tech. Thank you for your interest and support!
