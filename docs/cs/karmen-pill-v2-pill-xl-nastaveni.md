@@ -7,6 +7,9 @@ Pro prvotní nastavení vyjměte paměťovou kartu z Karmen Pillu a zapojte do p
 
 ?> Tip: Součástí balení je adaptér čtečky "Micro SD">"SD" karet.
 
+!> Pro editaci na Windows použijte předinstalovaný **WordPad** nikoliv poznámkový blok.  
+Pro editaci na MacOS lze použít výchozí textový editor.
+
 ## Nastavení WiFi
 - na SD kartě najdete soubor `OCTOPI-WPA-SUPPLICANT.TXT`
 - pro otevření použijte výchozí editor textoru bez formátování
