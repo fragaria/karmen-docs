@@ -12,8 +12,8 @@ Pill začne po připojení k počítači modře blikat (cca 30 vteřin po připo
 
 !> <u>Upozornění pro uživatele **Microsoft Windows**:</u><br>
 Pokud se Vám stále nenačítá stránka http://169.254.13.1/, tak:<br>
-&#8211; nejspíš budete muset dočasně [vypnout firewall](firewall.md)<br>
-&#8211; do Windows [doinstalovat USB ovladač](windows.md)
+&#8211; nejspíš budete muset dočasně [vypnout firewall](cs/firewall.md)<br>
+&#8211; do Windows [doinstalovat USB ovladač](cs/windows.md)
 
 V konfiguračním průvodci zvolte "nastavení wifi", kde vyplňte údaje o Vašem wifi připojení. Po uložení se Vám zobrazí kód zařízení, který si zkopírujte - budete jej potřebovat pro přidání tiskárny.
 
