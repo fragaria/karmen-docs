@@ -12,47 +12,46 @@ Níže je uveden návod, jakým způsobem nainstalovat Octoprint a další potř
 
 ## Průvodce nastavením krok za krokem
 ### Instalace Karmen Connector pluginu
-Log into your octoprint like **admin** user.  
-Go to Settings => Plugin Manager and choose "**GET MORE**"  
+Přihlaste se do svého octoprint zařízení jako **admin** - účet administrátora.  
+Jdetě do Settings => Plugin Manager a vyberte "**GET MORE**"  
 ![Octoprint](_media/octo-plugin/octo-plugin-manager.png ":size=1024")
 
-Search Karmen Connector plugin and instal  
+Vyhledejte Karmen Connector plugin a nainstalujte ho  
 ![Octoprint](_media/octo-plugin/octo-plugin-instal.png ":size=1024")
 
-!> Now you would be asked for rebooting your device to apply changes. Let's do it!
+!> Nyní budete vyzváni k restartování zařízení pro dokončení instalace. Jdeme tedy na to!
 
-### Creating Octoprint secondary API key
-!> We don't recommend using Octoprint master API key. Please for Karmen Connertor create separate API key.
+### Vytvoření sekundárního API klíče Octoprint
+!> Silně nedoporučujeme  používat hlavní Master API key. Prosím pro propojení s Karmen si vytvořte nový separátní API klíč.
 
-Go to Setting => Application keys  
-There you could name secondary key and create.  
-We chose `karmenCLOUD` to easy find his purpouse in future.
+Jděte do Settings => Application keys  
+Zde si při vytvoření můžete sekundární API klíč i pojmenovat.
+My jsme zvolili `karmenCLOUD` pro lehké naleznutí v budoucnu.
 
 ![Octoprint](_media/octo-plugin/octo-secondary-api-key.png ":size=1024")
 
-### Adding printer to your Karmen workspace
-Go to [next.karmen.tech](https://next.karmen.tech) and assign to your account.
-Click on **Add printer**.  
-In case you already have atleast one printer at workspace open `Setting` => `Printers` => **Add Printer button**.  
+### Přidání vaší tiskárny do Karmen pracovní skupiny
+V prohlížeči jdete na [next.karmen.tech](https://next.karmen.tech) a přihlaste se do svého účtu.
+Klikněte na **Přidat tiskárnu**.  
+Pokud již máte dříve přidanou tiskárnu bude pouze potřeba jít do `Nastavení` => `Tiskárny` => **Tlačítko přidat tiskárnu**.  
 ![Octoprint](_media/octo-plugin/en/en-new-workspace.png":size=1024")
 
-#### Octoprint device option  
+#### Výběr typu Octoprint zařízení  
 ![Octoprint](_media/octo-plugin/en/en-octo-new-printer.png ":size=1024")
 
-#### Printer info
-Now fill information like example below.  
-`Printer name` is your name of printer  
-`Octoprint API Key` is secondary API we generated in Octoprint
+#### Údaje tiskárny
+Nyní vyplňte údaje tiskárny.  
+`Název tiskárny` název, pod kterým se vám tiskárna bude zobrazovat.  
+`Octoprint API Key` je sekundární API klíč, který jsme si dříve generovali v Octoprintu.
 ![Octoprint](_media/octo-plugin/en/en-octo-new-octoprint.png ":size=1024")
 
-After pressing button you will get an unique device key.
-This key would be used at `Karmen Connector` plugin settings.
+Po stisknutí tlačítka vám bude vygenerován unikátní klíč zařízení.  
+Tento klíč bude potřeba zadat do nastavení pluginu `Karmen Connector`.
 ![Octoprint](_media/octo-plugin/en/en-octo-device-key.png ":size=1024")
 
-### Fill key to plugin
-Go to Settings => Karmen Connector plugin, fill `Device key` and save settings.
+### Zadání klíče do pluginu
+Jděte do Nastavení => Karmen Connector plugin a po vyplnění `Device key` uložte.
 ![Octoprint](_media/octo-plugin/octo-plugin-setup.png ":size=1024")
 
-# Contacts & support
-We’ll gladly answer all your questions or comments. Please get in touch at karmen@karmen.tech. Thank you for your interest and support!
-
+# Kontakt a podpora
+Budeme moc rádi za všechny připomínky nebo dotazy. Ozvěte se nám na email karmen@karmen.tech. Děkujeme za zájem i podporu!

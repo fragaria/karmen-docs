@@ -1,5 +1,19 @@
 # Připojení vlastního Octoprintu do Karmen Cloudu
 
+
+# Tento způsob již není aktualizován použijte prosím Octoprint plugin
+  
+[Návod a informace zde](/cs/karmen-connector-octoprint-plugin.md))
+
+  
+  
+  
+  
+  
+  
+  
+  
+
 Pokud máte vlastní zařízení s Octoprintem, můžete ho do Karmen Cloudu připojit také.
 
 Níže je uveden návod, jakým způsobem nainstalovat Octoprint a další potřebné knihovny k tomu, aby vaše vlastní zařízení komunikovalo s [Karmen Cloudem](https://next.karmen.tech/).
