@@ -16,6 +16,7 @@
   * [Nastavení PrusaSliceru s Karmen](/cs/prusaslicer-gcode-upload.md)
   * [Podpora pro Prusa MMU/multimateriál](/cs/konfigurace-pill-podpora-mmu.md)
   * [Připojení vlastního Octoprintu do Karmen Cloudu](/cs/karmen-connector-octoprint-plugin.md)
+  * [Připojení vlastního Klipperu do Karmen Cloudu](/cs/karmen-connector-klipper.md)
   * [Instalace ovladače Pillu pro systémem Microsoft Windows](/cs/windows.md)
   * [Jak sestavit Karmen Pill](/cs/sestaveni-karmen-pill.md)
 
