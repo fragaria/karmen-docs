@@ -5,10 +5,8 @@ Pokud máte vlastní zařízení s Octoprintem, můžete ho do Karmen Cloudu př
 Níže je uveden návod, jakým způsobem nainstalovat Octoprint a další potřebné knihovny k tomu, aby vaše vlastní zařízení komunikovalo s [Karmen Cloudem](https://next.karmen.tech/).
 
 ## Předpoklad
-
-## Requirements
-- device with Octoprint
-- account on [next.karmen.tech](https://next.karmen.tech)
+- zařízení s Octoprintem
+- účet na [next.karmen.tech](https://next.karmen.tech)
 
 ## Průvodce nastavením krok za krokem
 ### Instalace Karmen Connector pluginu
