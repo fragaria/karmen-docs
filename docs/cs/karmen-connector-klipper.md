@@ -13,7 +13,7 @@ Zde hledejte tlačítko "**Vytvořit nový klíč zařízení**"
 
 ![Octoprint](_media/klipper-connector/cloud-new-device-key1.png ":size=1024")
 
-Po kliknutí na toto tlačítko se Vám vygeneruje klíč, který si zkopírujte je potřebný pro instalaci přes SSH skript.
+Po kliknutí na toto tlačítko se Vám vygeneruje klíč, který si zkopírujte, je potřebný pro instalaci přes SSH skript.
 ![Octoprint](_media/klipper-connector/cloud-new-device-key2.png ":size=1024")
 
 ### Spuštění SSH instalačního skriptu
@@ -36,6 +36,7 @@ Pokud již máte dříve přidanou tiskárnu bude pouze potřeba v sekci [Tiská
 ![Octoprint](_media/klipper-connector/workspace-one-printer.png ":size=1024")
 
 #### Výběr typu zařízení - Klipper  
+Dále jste dotázání na typ zařízení. V tomto případě klikneme na **Klipper**.
 ![Octoprint](_media/klipper-connector/printer-type-klipper.png ":size=1024")
 
 #### Údaje tiskárny
@@ -50,7 +51,7 @@ Nyní vyplňte údaje tiskárny.
 
 ## Dohledání Karmen klíče zařízení
 Pokud by jste po instalaci smazali tiskárnu nemůsíte znovu instalovat.  
-Klíč se vám uložil do textového bloku a níže vám ukážeme jak se k němu dostanete dvěma kroky.  
+Klíč se vám uložil do textového souboru a níže vám ukážeme jak se k němu dostanete dvěma kroky.  
 Vstupte do rozhraní Klipperu - naše ukázka **FLUID**.  
 Zde do sekce **Configuration**  
 ![Octoprint](_media/klipper-connector/fluid-config.png ":size=1024")
