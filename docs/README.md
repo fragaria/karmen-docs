@@ -1,3 +1,10 @@
+<div style="background: #ea272e; color: #fff; padding: 10px; margin-bottom: 50px; font-size: 20px; text-align: center;">
+    This page is no longer updated. Please visit the current version at:
+    <div style="margin: 20px 0 20px 0;">
+        <a href="https://karmen.tech/docs/" style="font-weight: bold; color: #fff;">https://karmen.tech/docs/</a>
+    </div>
+</div>
+
 # Welcome, here we go!
 
 On this page you will find information and instructions on how to connect and set up Karmen Pill and Karmen Cloud. Don't worry, it looks complicated, but you have it in a few minutes.

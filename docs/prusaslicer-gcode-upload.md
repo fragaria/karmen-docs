@@ -1,3 +1,10 @@
+<div style="background: #ea272e; color: #fff; padding: 10px; margin-bottom: 50px; font-size: 20px; text-align: center;">
+    This page is no longer updated. Please visit the current version at:
+    <div style="margin: 20px 0 20px 0;">
+        <a href="https://karmen.tech/docs/" style="font-weight: bold; color: #fff;">https://karmen.tech/docs/</a>
+    </div>
+</div>
+
 # PrusaSlicer and Karmen
 
 If you use [PrusaSlicer](https://www.prusa3d.com/prusaslicer/) for slicing, you will certainly be interested in the fact that you can send your print files (Gcodes) from PrusaSlicer directly to Karmen.
