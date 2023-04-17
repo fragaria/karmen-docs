@@ -1,8 +1,12 @@
-# Karmen Connector - Klipper
+# Karmen Connector - Klipper(Moonracker)
 
 Pokud máte vlastní zařízení s Klipperem, můžete ho do Karmen Cloudu připojit snadno a rychle.
 
-## Moonracker - průvodce nastavením krok za krokem
+## Předpoklad
+- zařízení s Klipperem - Moonracker
+- účet na [next.karmen.tech](https://next.karmen.tech)
+
+## Průvodce nastavením krok za krokem
 ### Přihlášení přes SSH
 Přihlaste se do svého zařízení pomocí SSH.  
 ![Octoprint](_media/klipper-connector/ssh.png ":size=1024")
@@ -13,13 +17,15 @@ Zde hledejte tlačítko "**Vytvořit nový klíč zařízení**"
 
 ![Octoprint](_media/klipper-connector/cloud-new-device-key1.png ":size=1024")
 
+### Zkopírování klíče
 Po kliknutí na toto tlačítko se Vám vygeneruje klíč, který si zkopírujte, je potřebný pro instalaci přes SSH skript.
+
 ![Octoprint](_media/klipper-connector/cloud-new-device-key2.png ":size=1024")
 
 ### Spuštění SSH instalačního skriptu
-Nyní zadáte do SSH přikaz skládající se ze dvou částí
+Nyní zadejte do SSH přikaz skládající se ze dvou částí
 - příkaz na spuštění skriptu instalace `curl -s https://raw.githubusercontent.com/fragaria/karmen-gists/main/ws-install.sh | sudo bash -s `  
-- vytvořený klíč zařízení 
+- vytvořený klíč zařízení `eyJhbGciOiJIUzI1NiJ9.AToxNjgxMjk1Mjk5NDMxOmtjZjp2MjpvdjllM293bA.p4uQQJPi_YG_y7FR_wkJX8FvaiZ` 
 
 ?> V našem ukázkovém přikladu tedy je `curl -s https://raw.githubusercontent.com/fragaria/karmen-gists/main/ws-install.sh | sudo bash -s eyJhbGciOiJIUzI1NiJ9.AToxNjgxMjk1Mjk5NDMxOmtjZjp2MjpvdjllM293bA.p4uQQJPi_YG_y7FR_wkJX8FvaiZ`
 
@@ -28,7 +34,7 @@ Nyní zadáte do SSH přikaz skládající se ze dvou částí
 #### Takto připravený skript spustíme.
 
 ### Přidání vaší tiskárny do Karmen pracovní skupiny
-V prohlížeči jdete na [next.karmen.tech](https://next.karmen.tech) a přihlaste se do svého účtu.
+Otevřte si [next.karmen.tech](https://next.karmen.tech) a přihlaste se do svého účtu.
 Klikněte na **Přidat tiskárnu**.  
 ![Octoprint](_media/klipper-connector/workspace-empty.png ":size=1024")
 
