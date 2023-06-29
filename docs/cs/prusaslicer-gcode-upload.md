@@ -1,3 +1,10 @@
+<div style="background: #ea272e; color: #fff; padding: 10px; margin-bottom: 50px; font-size: 20px; text-align: center;">
+    Tato stránka již není aktualizována. Prosím navštivte aktuální stránky dokumentace:
+    <div style="margin: 20px 0 20px 0;">
+        <a href="https://karmen.tech/docs/" style="font-weight: bold; color: #fff;">https://karmen.tech/docs/</a>
+    </div>
+</div>
+
 # Nastavení PrusaSliceru s Karmen
 
 Pokud používáte ke slicování [PrusaSlicer](https://www.prusa3d.com/prusaslicer/), určitě Vás bude zajímat,
